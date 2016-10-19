@@ -33,12 +33,12 @@ data:extend({
   },
   {
     type = "item",
-    name = "smart-long-handed-inserter",
+    name = "filter-long-handed-inserter",
     icon = "__FactorioExtended-Core__/graphics/icons/smart-long-handed-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport-inserters",
     order = "b[smart-long-handed-inserter]-b",
-    place_result = "smart-long-handed-inserter",
+    place_result = "filter-long-handed-inserter",
     stack_size = 50
   },
   

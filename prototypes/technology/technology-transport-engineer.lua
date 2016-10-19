@@ -84,7 +84,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "smart-long-handed-inserter"
+        recipe = "filter-long-handed-inserter"
       }
     },
     unit =

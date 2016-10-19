@@ -23,7 +23,7 @@ data:extend(
     {
       {"cargo-wagon-mk2", 2},
 	  {"steel-plate", 200},
-	  {"titanium-plate", 50},
+	  {"titanium-alloy", 50},
       {"processing-unit", 1}
     },
     result = "cargo-wagon-mk3"
@@ -52,7 +52,7 @@ data:extend(
 	  {"diesel-locomotive-mk2", 1},
       {"electric-engine-unit", 20},
       {"processing-unit", 10},
-      {"titanium-plate", 50}
+      {"titanium-alloy", 50}
     },
     result = "diesel-locomotive-mk3"
   }

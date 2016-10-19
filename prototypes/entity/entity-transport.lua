@@ -2,6 +2,7 @@ require ("prototypes.entity.transport-belt-pictures")
 require("prototypes.entity.pipe-pictures")
 
 data.raw["storage-tank"]["storage-tank"].fast_replaceable_group="storage-tank"
+data.raw["inserter"]["long-handed-inserter"].fast_replaceable_group="inserter"
 
 data:extend({
   {
@@ -259,6 +260,8 @@ data:extend({
     energy_per_rotation = 5000,
     rotation_speed = 0.04,
     extension_speed = 0.08,
+    fast_replaceable_group = "long-handed-inserter",
+    fast_replaceable_group = "inserter",
     hand_size = 1.5,
     energy_source =
     {
@@ -266,7 +269,6 @@ data:extend({
       usage_priority = "secondary-input",
       drain = "0.4kW"
     },
-    fast_replaceable_group = "long-handed-inserter",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
@@ -350,10 +352,10 @@ data:extend({
   },
   {
     type = "inserter",
-    name = "smart-long-handed-inserter",
+    name = "filter-long-handed-inserter",
     icon = "__FactorioExtended-Core__/graphics/icons/smart-long-handed-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "smart-long-handed-inserter"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "filter-long-handed-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =
@@ -405,6 +407,7 @@ data:extend({
     },
     rotation_speed = 0.04,
     extension_speed = 0.08,
+    fast_replaceable_group = "long-handed-inserter",
     fast_replaceable_group = "inserter",
     filter_count = 5,
     hand_base_picture =
@@ -879,7 +882,7 @@ data:extend({
     {
       {
         type = "fire",
-        percent = 50
+        percent = 60
       }
     },
     collision_box = {{-0.4, -0.4}, {0.4, 0.4}},

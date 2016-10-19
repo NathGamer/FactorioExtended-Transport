@@ -40,7 +40,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "smart-long-handed-inserter",
+    name = "filter-long-handed-inserter",
     enabled = false,
     ingredients =
     {
@@ -48,7 +48,7 @@ data:extend(
 	  {"filter-inserter", 1},
       {"steel-plate", 2}
     },
-    result = "smart-long-handed-inserter"
+    result = "filter-long-handed-inserter"
   },
   
   
@@ -83,7 +83,7 @@ data:extend(
     ingredients =
     {
 	  {"storage-tank", 4},
-      {"titanium-plate", 15}
+      {"titanium-alloy", 15}
     },
     result= "storage-tank-mk2"
   },
@@ -96,7 +96,7 @@ data:extend(
     {
 	  {"small-pump", 4},
       {"advanced-circuit", 4},
-      {"titanium-plate", 5},
+      {"titanium-alloy", 5},
       {"pipe-mk2", 4}
     },
     result= "small-pump-mk2"
