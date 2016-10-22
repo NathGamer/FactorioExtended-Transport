@@ -1,10 +1,11 @@
 data:extend({
-  {
+  -- wagons
+{
     type = "cargo-wagon",
     name = "cargo-wagon-mk2",
     icon = "__FactorioExtended-Core__/graphics/icons/cargo-wagon-mk2.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
-    inventory_size = 50,
+    inventory_size = 60,
     minable = {mining_time = 1, result = "cargo-wagon-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1200,
@@ -51,23 +52,161 @@ data:extend({
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
+    -- stock color is roughly RGBA 110 60 0 127
+    color = {r = 0, g = 0.43, b = 0.08, a = 0.5}, -- RGB 0 110 20 204
     pictures =
     {
-      priority = "very-low",
-      width = 285,
-      height = 218,
-      back_equals_front = true,
-      direction_count = 128,
-      filenames =
+      layers =
       {
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk2-spritesheet-1.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk2-spritesheet-2.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk2-spritesheet-3.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk2-spritesheet-4.png"
-      },
-      line_length = 4,
-      lines_per_file = 8,
-      shift = {0.7, -0.45}
+        {
+          priority = "very-low",
+          width = 222,
+          height = 205,
+          back_equals_front = true,
+          direction_count = 128,
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-3.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-4.png"
+          },
+          line_length = 4,
+          lines_per_file = 8,
+          shift = {0, -0.796875}
+        },
+        {
+          flags = { "mask" },
+          width = 196,
+          height = 174,
+          direction_count = 128,
+          back_equals_front = true,
+          apply_runtime_tint = true,
+          shift = {0, -1.125},
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-3.png"
+          },
+          line_length = 4,
+          lines_per_file = 11,
+        },
+        {
+          flags = { "compressed" },
+          width = 246,
+          height = 201,
+          back_equals_front = true,
+          draw_as_shadow = true,
+          direction_count = 128,
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-3.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-4.png"
+          },
+          line_length = 4,
+          lines_per_file = 8,
+          shift = {0.8, -0.078125}
+        }
+      }
+    },
+    horizontal_doors =
+    {
+      layers =
+      {
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-end.png",
+          line_length = 1,
+          width = 220,
+          height = 33,
+          frame_count = 8,
+          shift = {0, -0.921875}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side.png",
+          line_length = 1,
+          width = 186,
+          height = 38,
+          frame_count = 8,
+          shift = {0, -0.78125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side-mask.png",
+          width = 182,
+          height = 35,
+          line_length = 1,
+          frame_count = 8,
+          shift = {0, -0.828125},
+          apply_runtime_tint = true
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top.png",
+          line_length = 1,
+          width = 184,
+          height = 28,
+          frame_count = 8,
+          shift = {0.015625, -1.125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top-mask.png",
+          width = 185,
+          height = 23,
+          frame_count = 8,
+          line_length = 1,
+          shift = {0.015625, -1.17188},
+          apply_runtime_tint = true
+        }
+      }
+    },
+    vertical_doors =
+    {
+      layers =
+      {
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-end.png",
+          line_length = 8,
+          width = 30,
+          height = 202,
+          frame_count = 8,
+          shift = {0, -0.84375}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side.png",
+          line_length = 8,
+          width = 67,
+          height = 169,
+          frame_count = 8,
+          shift = {0.015625, -1.01563}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side-mask.png",
+          line_length = 8,
+          width = 56,
+          height = 163,
+          frame_count = 8,
+          shift = {0, -1.10938},
+          apply_runtime_tint = true
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top.png",
+          line_length = 8,
+          width = 32,
+          height = 168,
+          frame_count = 8,
+          shift = {0, -1.125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top-mask.png",
+          line_length = 8,
+          width = 32,
+          height = 166,
+          frame_count = 8,
+          shift = {0, -1.15625},
+          apply_runtime_tint = true
+        }
+      }
     },
 	wheels = standard_train_wheels,
     rail_category = "regular",
@@ -93,7 +232,7 @@ data:extend({
     name = "cargo-wagon-mk3",
     icon = "__FactorioExtended-Core__/graphics/icons/cargo-wagon-mk3.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
-    inventory_size = 100,
+    inventory_size = 80,
     minable = {mining_time = 1, result = "cargo-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 2400,
@@ -140,23 +279,161 @@ data:extend({
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
+    -- stock color is roughly RGBA 110 60 0 127
+    color = {r = 0, g = 0.08, b = 0.43, a = 0.5}, -- RGB 0 20 110 127
     pictures =
     {
-      priority = "very-low",
-      width = 285,
-      height = 218,
-      back_equals_front = true,
-      direction_count = 128,
-      filenames =
+      layers =
       {
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk3-spritesheet-1.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk3-spritesheet-2.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk3-spritesheet-3.png",
-        "__FactorioExtended-Core__/graphics/entity/trains/cargo-wagon-mk3-spritesheet-4.png"
-      },
-      line_length = 4,
-      lines_per_file = 8,
-      shift = {0.7, -0.45}
+        {
+          priority = "very-low",
+          width = 222,
+          height = 205,
+          back_equals_front = true,
+          direction_count = 128,
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-3.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-4.png"
+          },
+          line_length = 4,
+          lines_per_file = 8,
+          shift = {0, -0.796875}
+        },
+        {
+          flags = { "mask" },
+          width = 196,
+          height = 174,
+          direction_count = 128,
+          back_equals_front = true,
+          apply_runtime_tint = true,
+          shift = {0, -1.125},
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-mask-3.png"
+          },
+          line_length = 4,
+          lines_per_file = 11,
+        },
+        {
+          flags = { "compressed" },
+          width = 246,
+          height = 201,
+          back_equals_front = true,
+          draw_as_shadow = true,
+          direction_count = 128,
+          filenames =
+          {
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-1.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-2.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-3.png",
+            "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-4.png"
+          },
+          line_length = 4,
+          lines_per_file = 8,
+          shift = {0.8, -0.078125}
+        }
+      }
+    },
+    horizontal_doors =
+    {
+      layers =
+      {
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-end.png",
+          line_length = 1,
+          width = 220,
+          height = 33,
+          frame_count = 8,
+          shift = {0, -0.921875}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side.png",
+          line_length = 1,
+          width = 186,
+          height = 38,
+          frame_count = 8,
+          shift = {0, -0.78125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side-mask.png",
+          width = 182,
+          height = 35,
+          line_length = 1,
+          frame_count = 8,
+          shift = {0, -0.828125},
+          apply_runtime_tint = true
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top.png",
+          line_length = 1,
+          width = 184,
+          height = 28,
+          frame_count = 8,
+          shift = {0.015625, -1.125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top-mask.png",
+          width = 185,
+          height = 23,
+          frame_count = 8,
+          line_length = 1,
+          shift = {0.015625, -1.17188},
+          apply_runtime_tint = true
+        }
+      }
+    },
+    vertical_doors =
+    {
+      layers =
+      {
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-end.png",
+          line_length = 8,
+          width = 30,
+          height = 202,
+          frame_count = 8,
+          shift = {0, -0.84375}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side.png",
+          line_length = 8,
+          width = 67,
+          height = 169,
+          frame_count = 8,
+          shift = {0.015625, -1.01563}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side-mask.png",
+          line_length = 8,
+          width = 56,
+          height = 163,
+          frame_count = 8,
+          shift = {0, -1.10938},
+          apply_runtime_tint = true
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top.png",
+          line_length = 8,
+          width = 32,
+          height = 168,
+          frame_count = 8,
+          shift = {0, -1.125}
+        },
+        {
+          filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top-mask.png",
+          line_length = 8,
+          width = 32,
+          height = 166,
+          frame_count = 8,
+          shift = {0, -1.15625},
+          apply_runtime_tint = true
+        }
+      }
     },
 	wheels = standard_train_wheels,
     rail_category = "regular",
@@ -178,7 +455,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
   },
   
-  
+  -- locomotives
   {
     type = "locomotive",
     name = "diesel-locomotive-mk2",
