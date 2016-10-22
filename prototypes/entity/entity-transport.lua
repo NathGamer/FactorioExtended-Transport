@@ -5,6 +5,7 @@ data.raw["storage-tank"]["storage-tank"].fast_replaceable_group="storage-tank"
 data.raw["inserter"]["long-handed-inserter"].fast_replaceable_group="inserter"
 
 data:extend({
+  --  inserters
   {
     type = "inserter",
     name = "fast-inserter-mk2",
@@ -121,7 +122,7 @@ data:extend({
       }
     }
   },
-    {
+  {
     type = "inserter",
     name = "fast-inserter-mk3",
     icon = "__FactorioExtended-Core__/graphics/icons/fast-inserter-mk3.png",
@@ -482,8 +483,8 @@ data:extend({
     circuit_wire_max_distance = 7.5,
     uses_arm_movement = "basic-inserter"
   },
-  
-  
+
+  -- pipes
   {
     type = "pipe",
     name = "pipe-mk2",
@@ -599,7 +600,7 @@ data:extend({
     }
   },
   
-  
+  -- tanks
   {
     type = "storage-tank",
     name = "storage-tank-mk2",
@@ -869,7 +870,7 @@ data:extend({
 
   },
   
-  
+  -- ground belts
   {
     type = "transport-belt",
     name = "rapid-transport-belt-mk1",
@@ -975,7 +976,7 @@ data:extend({
     circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
   },
   
-  
+  -- underground belts
   {
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk1",
@@ -984,13 +985,15 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk1"},
     max_health = 60,
     corpse = "small-remnants",
+    max_distance = 10,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",
       priority = "high",
-      width = 32,
-      height = 32,
-      x = 32
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -1010,9 +1013,8 @@ data:extend({
     starting_top = rapid_belt_mk1_starting_top,
     starting_bottom = rapid_belt_mk1_starting_bottom,
     starting_side = rapid_belt_mk1_starting_side,
-    fast_replaceable_group = "transport-belt-to-ground",
+    fast_replaceable_group = "underground-belt",
     speed = 0.125,
-	max_distance = 10,
     structure =
     {
       direction_in =
@@ -1049,13 +1051,15 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 60,
     corpse = "small-remnants",
+    max_distance = 20,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",
       priority = "high",
-      width = 32,
-      height = 32,
-      x = 32
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -1075,9 +1079,8 @@ data:extend({
     starting_top = rapid_belt_mk2_starting_top,
     starting_bottom = rapid_belt_mk2_starting_bottom,
     starting_side = rapid_belt_mk2_starting_side,
-    fast_replaceable_group = "transport-belt-to-ground",
+    fast_replaceable_group = "underground-belt",
     speed = 0.15625,
-	max_distance = 20,
     structure =
     {
       direction_in =
@@ -1107,7 +1110,7 @@ data:extend({
     ending_patch = ending_patch_prototype
   },
   
-  
+  -- splitters
   {
     type = "splitter",
     name = "rapid-splitter-mk1",
