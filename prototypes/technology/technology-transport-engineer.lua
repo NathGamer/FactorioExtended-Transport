@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "logistics-4",
     icon = "__base__/graphics/technology/logistics.png",
+    icon_size = 128,
 	prerequisites = {"automated-rail-transportation", "logistics-3"},
     effects =
     {
@@ -57,6 +58,7 @@ data:extend(
     type = "technology",
     name = "logistics-5",
     icon = "__base__/graphics/technology/logistics.png",
+    icon_size = 128,
 	prerequisites = {"logistics-4"},
     effects =
     {
@@ -112,6 +114,7 @@ data:extend(
     type = "technology",
     name = "fluid-handling-2",
     icon = "__base__/graphics/technology/fluid-handling.png",
+    icon_size = 128,
     prerequisites = {"fluid-handling", "titanium-processing"},
     effects =
     {

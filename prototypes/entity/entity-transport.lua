@@ -1,3 +1,4 @@
+require ("circuit-connector-generated-definitions")
 require ("prototypes.entity.transport-belt-pictures")
 require("prototypes.entity.pipe-pictures")
 
@@ -10,6 +11,7 @@ data:extend({
     type = "inserter",
     name = "fast-inserter-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
@@ -126,6 +128,7 @@ data:extend({
     type = "inserter",
     name = "fast-inserter-mk3",
     icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk3.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
@@ -242,6 +245,7 @@ data:extend({
     type = "inserter",
     name = "fast-long-handed-inserter",
     icon = "__FactorioExtended-Transport__/graphics/icons/fast-long-handed-inserter.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-long-handed-inserter"},
     max_health = 40,
@@ -355,6 +359,7 @@ data:extend({
     type = "inserter",
     name = "filter-long-handed-inserter",
     icon = "__FactorioExtended-Transport__/graphics/icons/smart-long-handed-inserter.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "filter-long-handed-inserter"},
     max_health = 40,
@@ -467,19 +472,8 @@ data:extend({
     rotation_speed = 0.035,
     uses_arm_movement = "basic-inserter",
 
-    circuit_wire_connection_point =
-    {
-      shadow =
-      {
-        red = {0, 0},
-        green = {0, 0}
-      },
-      wire =
-      {
-        red = {0, 0},
-        green = {0, 0}
-      }
-    },
+    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
+    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
     circuit_wire_max_distance = 7.5,
     uses_arm_movement = "basic-inserter"
   },
@@ -489,6 +483,7 @@ data:extend({
     type = "pipe",
     name = "pipe-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/pipe-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "pipe-mk2"},
     max_health = 100,
@@ -533,6 +528,7 @@ data:extend({
     type = "pipe-to-ground",
     name = "pipe-to-ground-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/pipe-to-ground-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "pipe-to-ground-mk2"},
     max_health = 100,
@@ -563,8 +559,19 @@ data:extend({
     {
       filename = "__core__/graphics/arrows/underground-lines.png",
       priority = "high",
-      width = 32,
-      height = 32
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
+    },
+    underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     pictures =
@@ -605,6 +612,7 @@ data:extend({
     type = "storage-tank",
     name = "storage-tank-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/storage-tank-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 3, result = "storage-tank-mk2"},
     max_health = 2000,
@@ -696,70 +704,15 @@ data:extend({
       apparent_volume = 1.5,
       max_sounds_per_type = 3
     },
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {2.35938, 0.890625},
-          green = {2.29688, 0.953125},
-        },
-        wire =
-        {
-          red = {-0.40625, -0.375},
-          green = {-0.53125, -0.46875},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.35938, 0.890625},
-          green = {2.29688, 0.953125},
-        },
-        wire =
-        {
-          red = {0.46875, -0.53125},
-          green = {0.375, -0.4375},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.35938, 0.890625},
-          green = {2.29688, 0.953125},
-        },
-        wire =
-        {
-          red = {-0.40625, -0.375},
-          green = {-0.53125, -0.46875},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.35938, 0.890625},
-          green = {2.29688, 0.953125},
-        },
-        wire =
-        {
-          red = {0.46875, -0.53125},
-          green = {0.375, -0.4375},
-        }
-      },
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-    },
+    circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
+    circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
     circuit_wire_max_distance = 7.5
   },
   {
     type = "pump",
     name = "pump-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/pump-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pump-mk2"},
     max_health = 360,
@@ -1019,64 +972,8 @@ data:extend({
       }
     },
 
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {0.171875, 0.140625},
-          green = {0.171875, 0.265625},
-        },
-        wire =
-        {
-          red = {-0.53125, -0.15625},
-          green = {-0.53125, 0},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.890625, 0.703125},
-          green = {0.75, 0.75},
-        },
-        wire =
-        {
-          red = {0.34375, 0.28125},
-          green = {0.34375, 0.4375},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.15625, 0.0625},
-          green = {0.09375, 0.125},
-        },
-        wire =
-        {
-          red = {-0.53125, -0.09375},
-          green = {-0.53125, 0.03125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.796875, 0.703125},
-          green = {0.625, 0.75},
-        },
-        wire =
-        {
-          red = {0.40625, 0.28125},
-          green = {0.40625, 0.4375},
-        }
-      }
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.40625, -0.3125}, nil, 24),
-      get_circuit_connector_sprites({0.125, 0.21875}, {0.34375, 0.40625}, 18),
-      get_circuit_connector_sprites({-0.40625, -0.25}, nil, 24),
-      get_circuit_connector_sprites({0.203125, 0.203125}, {0.25, 0.40625}, 18),
-    },
+    circuit_wire_connection_points = circuit_connector_definitions["pump"].points,
+    circuit_connector_sprites = circuit_connector_definitions["pump"].sprites,
     circuit_wire_max_distance = 7.5
 
   },
@@ -1086,6 +983,7 @@ data:extend({
     type = "transport-belt",
     name = "rapid-transport-belt-mk1",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk1"},
     max_health = 50,
@@ -1138,6 +1036,7 @@ data:extend({
     type = "transport-belt",
     name = "rapid-transport-belt-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk2"},
     max_health = 50,
@@ -1192,7 +1091,8 @@ data:extend({
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk1",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
-    flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
+    icon_size = 32,
+    flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk1"},
     max_health = 60,
 	max_distance = 10,
@@ -1204,7 +1104,16 @@ data:extend({
       width = 64,
       height = 64,
       x = 64,
-	  scale = 0.5
+      scale = 0.5
+    },
+    underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -1224,7 +1133,7 @@ data:extend({
     starting_top = rapid_belt_mk1_starting_top,
     starting_bottom = rapid_belt_mk1_starting_bottom,
     starting_side = rapid_belt_mk1_starting_side,
-    fast_replaceable_group = "underground-belt",
+    fast_replaceable_group = "transport-belt",
     speed = 0.125,
     structure =
     {
@@ -1258,7 +1167,8 @@ data:extend({
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
-    flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
+    icon_size = 32,
+    flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 60,
 	max_distance = 20,
@@ -1270,7 +1180,16 @@ data:extend({
       width = 64,
       height = 64,
       x = 64,
-	  scale = 0.5
+      scale = 0.5
+    },
+    underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -1290,7 +1209,7 @@ data:extend({
     starting_top = rapid_belt_mk2_starting_top,
     starting_bottom = rapid_belt_mk2_starting_bottom,
     starting_side = rapid_belt_mk2_starting_side,
-    fast_replaceable_group = "underground-belt",
+    fast_replaceable_group = "transport-belt",
     speed = 0.15625,
     structure =
     {
@@ -1326,6 +1245,7 @@ data:extend({
     type = "splitter",
     name = "rapid-splitter-mk1",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk1.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk1"},
     max_health = 80,
@@ -1350,7 +1270,7 @@ data:extend({
     starting_top = rapid_belt_mk1_starting_top,
     starting_bottom = rapid_belt_mk1_starting_bottom,
     starting_side = rapid_belt_mk1_starting_side,
-    fast_replaceable_group = "splitter",
+    fast_replaceable_group = "transport-belt",
     speed = 0.125,
     structure =
     {
@@ -1401,6 +1321,7 @@ data:extend({
     type = "splitter",
     name = "rapid-splitter-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk2"},
     max_health = 80,
@@ -1425,7 +1346,7 @@ data:extend({
     starting_top = rapid_belt_mk2_starting_top,
     starting_bottom = rapid_belt_mk2_starting_bottom,
     starting_side = rapid_belt_mk2_starting_side,
-    fast_replaceable_group = "splitter",
+    fast_replaceable_group = "transport-belt",
     speed = 0.15625,
     structure =
     {

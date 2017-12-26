@@ -4,6 +4,7 @@ data:extend({
     type = "cargo-wagon",
     name = "cargo-wagon-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     inventory_size = 60,
     minable = {mining_time = 1, result = "cargo-wagon-mk2"},
@@ -230,6 +231,7 @@ data:extend({
     type = "cargo-wagon",
     name = "cargo-wagon-mk3",
     icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk3.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     inventory_size = 100,
     minable = {mining_time = 1, result = "cargo-wagon-mk3"},
@@ -458,6 +460,7 @@ data:extend({
     type = "locomotive",
     name = "locomotive-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -702,9 +705,9 @@ data:extend({
     {
       -- left side
       {
-        type = "create-smoke",
+        type = "create-trivial-smoke",
         repeat_count = 125,
-        entity_name = "smoke-train-stop",
+        smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the left
         speed = {-0.03, 0},
@@ -714,9 +717,10 @@ data:extend({
       },
       -- right side
       {
-        type = "create-smoke",
+        type = "create-trivial-smoke",
         repeat_count = 125,
-        entity_name = "smoke-train-stop",
+        
+        smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the right
         speed = {0.03, 0},
@@ -755,6 +759,7 @@ data:extend({
     type = "locomotive",
     name = "locomotive-mk3",
     icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk3.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -999,9 +1004,9 @@ data:extend({
     {
       -- left side
       {
-        type = "create-smoke",
+        type = "create-trivial-smoke",
         repeat_count = 125,
-        entity_name = "smoke-train-stop",
+        smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the left
         speed = {-0.03, 0},
@@ -1011,9 +1016,10 @@ data:extend({
       },
       -- right side
       {
-        type = "create-smoke",
+
+        type = "create-trivial-smoke",
         repeat_count = 125,
-        entity_name = "smoke-train-stop",
+        smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the right
         speed = {0.03, 0},
@@ -1055,6 +1061,7 @@ data:extend({
     type = "fluid-wagon",
     name = "fluid-wagon-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk2.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -1261,6 +1268,7 @@ data:extend({
     type = "fluid-wagon",
     name = "fluid-wagon-mk3",
     icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk3.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
