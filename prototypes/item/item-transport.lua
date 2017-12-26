@@ -2,7 +2,8 @@ data:extend({
   {
     type = "item",
     name = "fast-inserter-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/fast-inserter-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport-inserters",
     order = "a[fast-inserter-mk2]-a",
@@ -12,7 +13,8 @@ data:extend({
   {
     type = "item",
     name = "fast-inserter-mk3",
-    icon = "__FactorioExtended-Core__/graphics/icons/fast-inserter-mk3.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk3.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport-inserters",
     order = "a[fast-inserter-mk3]-b",
@@ -24,7 +26,8 @@ data:extend({
   {
     type = "item",
     name = "fast-long-handed-inserter",
-    icon = "__FactorioExtended-Core__/graphics/icons/fast-long-handed-inserter.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/fast-long-handed-inserter.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport-inserters",
     order = "b[fast-long-handed-inserter]-a",
@@ -34,7 +37,8 @@ data:extend({
   {
     type = "item",
     name = "filter-long-handed-inserter",
-    icon = "__FactorioExtended-Core__/graphics/icons/smart-long-handed-inserter.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/smart-long-handed-inserter.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport-inserters",
     order = "b[smart-long-handed-inserter]-b",
@@ -46,7 +50,8 @@ data:extend({
   {
     type = "item",
     name = "pipe-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/pipe-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/pipe-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
     order = "a-a",
@@ -56,7 +61,8 @@ data:extend({
   {
     type = "item",
     name = "pipe-to-ground-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/pipe-to-ground-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/pipe-to-ground-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
     order = "a-c",
@@ -68,7 +74,8 @@ data:extend({
   {
     type = "item",
     name = "storage-tank-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/storage-tank-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/storage-tank-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
     order = "b-a",
@@ -77,12 +84,13 @@ data:extend({
   },
   {
     type = "item",
-    name = "small-pump-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/small-pump-mk2.png",
+    name = "pump-mk2",
+    icon = "__FactorioExtended-Transport__/graphics/icons/pump-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
     order = "b-b",
-    place_result = "small-pump-mk2",
+    place_result = "pump-mk2",
     stack_size = 50
   },
   
@@ -90,29 +98,32 @@ data:extend({
   {
     type = "item",
     name = "rapid-transport-belt-mk1",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-transport-belt-mk1.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "b[rapid-transport-belt-mk1]-a",
     place_result = "rapid-transport-belt-mk1",
-    stack_size = 50
+    stack_size = 100
   },
   {
     type = "item",
     name = "rapid-transport-belt-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-transport-belt-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "b[rapid-transport-belt-mk2]-b",
     place_result = "rapid-transport-belt-mk2",
-    stack_size = 50
+    stack_size = 100
   },
   
   
   {
     type = "item",
     name = "rapid-transport-belt-to-ground-mk1",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "c[rapid-transport-belt-to-ground-mk1]-a",
@@ -122,7 +133,8 @@ data:extend({
   {
     type = "item",
     name = "rapid-transport-belt-to-ground-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "c[rapid-transport-belt-to-ground-mk2]-b",
@@ -134,7 +146,8 @@ data:extend({
   {
     type = "item",
     name = "rapid-splitter-mk1",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-splitter-mk1.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk1.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "d[rapid-splitter-mk1]-a",
@@ -144,7 +157,8 @@ data:extend({
   {
     type = "item",
     name = "rapid-splitter-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/rapid-splitter-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk2.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-transport",
     order = "d[rapid-splitter-mk2]-b",

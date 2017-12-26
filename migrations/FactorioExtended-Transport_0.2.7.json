@@ -1,0 +1,31 @@
+{
+	"technology":
+	[
+		["transport-engineer-1", "logistics-4"],
+		["transport-engineer-2", "logistics-5"]
+	]
+}
+
+{
+	"entity":
+	[
+		["diesel-locomotive-mk2", "locomotive-mk2"],
+		["diesel-locomotive-mk3", "locomotive-mk3"]
+	]
+}
+
+{
+	"item":
+	[
+		["diesel-locomotive-mk2", "locomotive-mk2"],
+		["diesel-locomotive-mk3", "locomotive-mk3"]
+	]
+}
+
+{
+	"recipe":
+	[
+		["diesel-locomotive-mk2", "locomotive-mk2"],
+		["diesel-locomotive-mk3", "locomotive-mk3"]
+	]
+}

@@ -89,17 +89,18 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "small-pump-mk2",
+    name = "pump-mk2",
     energy_required = 2,
     enabled = false,
     ingredients =
     {
-	  {"small-pump", 4},
+	  {"pump", 4},
       {"advanced-circuit", 4},
       {"titanium-alloy", 5},
-      {"pipe-mk2", 4}
+      {"pipe-mk2", 4},
+      {"pollution-filter", 1}
     },
-    result= "small-pump-mk2"
+    result= "pump-mk2"
   },
   
   
