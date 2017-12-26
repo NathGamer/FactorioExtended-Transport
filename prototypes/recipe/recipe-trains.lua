@@ -32,28 +32,56 @@ data:extend(
   
   {
     type = "recipe",
-    name = "diesel-locomotive-mk2",
+    name = "locomotive-mk2",
     enabled = false,
     ingredients =
     {
-      {"diesel-locomotive", 1},
+      {"locomotive", 1},
 	  {"engine-unit", 20},
       {"advanced-circuit", 10},
       {"steel-plate", 50}
     },
-    result = "diesel-locomotive-mk2"
+    result = "locomotive-mk2"
   },
   {
     type = "recipe",
-    name = "diesel-locomotive-mk3",
+    name = "locomotive-mk3",
     enabled = false,
     ingredients =
     {
-	  {"diesel-locomotive-mk2", 1},
+	  {"locomotive-mk2", 1},
       {"electric-engine-unit", 20},
       {"processing-unit", 10},
       {"titanium-alloy", 50}
     },
-    result = "diesel-locomotive-mk3"
+    result = "locomotive-mk3"
+  },
+  
+  
+  {
+    type = "recipe",
+    name = "fluid-wagon-mk2",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients =
+    {
+      {"steel-plate", 32},
+      {"pipe-mk2", 8},
+      {"fluid-wagon", 3}
+    },
+    result = "fluid-wagon-mk2"
+  },
+  {
+    type = "recipe",
+    name = "fluid-wagon-mk3",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients =
+    {
+      {"titanium-alloy", 32},
+      {"pipe-mk2", 16},
+      {"fluid-wagon-mk2", 3}
+    },
+    result = "fluid-wagon-mk3"
   }
 })

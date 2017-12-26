@@ -2,9 +2,8 @@ data:extend(
 {
   {
     type = "technology",
-    name = "transport-engineer-1",
-    icon = "__FactorioExtended-Core__/graphics/technology/transport-engineer.png",
-	icon_size = 128,
+    name = "logistics-4",
+    icon = "__base__/graphics/technology/logistics.png",
 	prerequisites = {"automated-rail-transportation", "logistics-3"},
     effects =
     {
@@ -14,7 +13,11 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "diesel-locomotive-mk2"
+        recipe = "locomotive-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "fluid-wagon-mk2"
       },
 	  {
         type = "unlock-recipe",
@@ -52,10 +55,9 @@ data:extend(
   },
   {
     type = "technology",
-    name = "transport-engineer-2",
-    icon = "__FactorioExtended-Core__/graphics/technology/transport-engineer.png",
-	icon_size = 128,
-	prerequisites = {"transport-engineer-1"},
+    name = "logistics-5",
+    icon = "__base__/graphics/technology/logistics.png",
+	prerequisites = {"logistics-4"},
     effects =
     {
       {
@@ -64,7 +66,11 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "diesel-locomotive-mk3"
+        recipe = "locomotive-mk3"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "fluid-wagon-mk3"
       },
 	  {
         type = "unlock-recipe",
@@ -106,7 +112,7 @@ data:extend(
     type = "technology",
     name = "fluid-handling-2",
     icon = "__base__/graphics/technology/fluid-handling.png",
-    prerequisites = {"fluid-handling"},
+    prerequisites = {"fluid-handling", "titanium-processing"},
     effects =
     {
       {
@@ -115,13 +121,17 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "small-pump-mk2"
+        recipe = "pump-mk2"
       }
     },
     unit =
     {
       count = 75,
-      ingredients = {{"science-pack-1", 2}, {"science-pack-2", 1}},
+      ingredients = 
+	  {
+		{"science-pack-1", 2}, 
+		{"science-pack-2", 1}
+	  },
       time = 30
     },
     order = "d-a-b"

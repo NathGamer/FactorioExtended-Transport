@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "cargo-wagon-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/cargo-wagon-mk2.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
     order = "h[cargo-wagon-mk2]-a",
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "cargo-wagon-mk3",
-    icon = "__FactorioExtended-Core__/graphics/icons/cargo-wagon-mk3.png",
+    icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk3.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
     order = "h[cargo-wagon-mk3]-b",
@@ -23,22 +23,44 @@ data:extend({
   
   {
     type = "item",
-    name = "diesel-locomotive-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/diesel-locomotive-mk2.png",
+    name = "locomotive-mk2",
+    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
     order = "i-a",
-    place_result = "diesel-locomotive-mk2",
+    place_result = "locomotive-mk2",
     stack_size = 5
   },
   {
     type = "item",
-    name = "diesel-locomotive-mk3",
-    icon = "__FactorioExtended-Core__/graphics/icons/diesel-locomotive-mk3.png",
+    name = "locomotive-mk3",
+    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk3.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-logistics",
     order = "i-b",
-    place_result = "diesel-locomotive-mk3",
+    place_result = "locomotive-mk3",
+    stack_size = 5
+  },
+  
+  
+  {
+    type = "item-with-entity-data",
+    name = "fluid-wagon-mk2",
+    icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk2.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-logistics",
+    order = "h[fluid-wagon-mk2]-c",
+    place_result = "fluid-wagon-mk2",
+    stack_size = 5
+  },
+  {
+    type = "item-with-entity-data",
+    name = "fluid-wagon-mk3",
+    icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk3.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-logistics",
+    order = "h[fluid-wagon-mk3]-d",
+    place_result = "fluid-wagon-mk3",
     stack_size = 5
   }
 })
