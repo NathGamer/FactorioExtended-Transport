@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
 	energy_required = 0.5,
-    name = "fast-inserter-mk2",
+    name = "blistering-inserter",
     enabled = false,
     ingredients =
     {
@@ -11,24 +11,24 @@ data:extend(
       {"advanced-circuit", 5},
 	  {"speed-module", 2}
     },
-    result = "fast-inserter-mk2"
+    result = "blistering-inserter"
   },
   {
     type = "recipe",
 	energy_required = 0.5,
-    name = "fast-inserter-mk3",
+    name = "furious-inserter",
     enabled = false,
     ingredients =
     {
-      {"fast-inserter-mk2", 1},
+      {"blistering-inserter", 1},
       {"processing-unit", 5},
 	  {"speed-module-2", 2}
     },
-    result = "fast-inserter-mk3"
+    result = "furious-inserter"
   },
   {
     type = "recipe",
-    name = "fast-long-handed-inserter",
+    name = "furious-long-handed-inserter",
     enabled = false,
     ingredients =
     {
@@ -36,7 +36,7 @@ data:extend(
       {"long-handed-inserter", 1},
       {"steel-plate", 2}
     },
-    result = "fast-long-handed-inserter"
+    result = "furious-long-handed-inserter"
   },
   {
     type = "recipe",
@@ -44,7 +44,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"fast-long-handed-inserter", 1},
+      {"furious-long-handed-inserter", 1},
 	  {"filter-inserter", 1},
       {"steel-plate", 2}
     },
@@ -89,17 +89,18 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "small-pump-mk2",
+    name = "pump-mk2",
     energy_required = 2,
     enabled = false,
     ingredients =
     {
-	  {"small-pump", 4},
+	  {"pump", 4},
       {"advanced-circuit", 4},
       {"titanium-alloy", 5},
-      {"pipe-mk2", 4}
+      {"pipe-mk2", 4},
+      {"pollution-filter", 1}
     },
-    result= "small-pump-mk2"
+    result= "pump-mk2"
   },
   
   
@@ -107,7 +108,7 @@ data:extend(
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-transport-belt-mk1",
+    name = "blistering-transport-belt",
     enabled = false,
     ingredients =
     {
@@ -115,21 +116,21 @@ data:extend(
       {"express-transport-belt", 1},
       {type="fluid", name="lubricant", amount=2}
     },
-    result = "rapid-transport-belt-mk1"
+    result = "blistering-transport-belt"
   },
   {
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-transport-belt-mk2",
+    name = "furious-transport-belt",
     enabled = false,
     ingredients =
     {
       {"iron-gear-wheel", 5},
-      {"rapid-transport-belt-mk1", 1},
+      {"blistering-transport-belt", 1},
       {type="fluid", name="lubricant", amount=2}
     },
-    result = "rapid-transport-belt-mk2"
+    result = "furious-transport-belt"
   },
   
   
@@ -137,7 +138,7 @@ data:extend(
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-transport-belt-to-ground-mk1",
+    name = "blistering-transport-belt-to-ground",
     enabled = false,
     ingredients =
     {
@@ -146,22 +147,22 @@ data:extend(
       {type="fluid", name="lubricant", amount=2}
     },
     result_count = 2,
-    result = "rapid-transport-belt-to-ground-mk1"
+    result = "blistering-transport-belt-to-ground"
   },
   {
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-transport-belt-to-ground-mk2",
+    name = "furious-transport-belt-to-ground",
     enabled = false,
     ingredients =
     {
       {"iron-gear-wheel", 40},
-      {"rapid-transport-belt-to-ground-mk1", 4},
+      {"blistering-transport-belt-to-ground", 4},
       {type="fluid", name="lubricant", amount=4}
     },
     result_count = 2,
-    result = "rapid-transport-belt-to-ground-mk2"
+    result = "furious-transport-belt-to-ground"
   },
   
   
@@ -169,7 +170,7 @@ data:extend(
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-splitter-mk1",
+    name = "blistering-splitter",
     enabled = false,
     energy_required = 2,
     ingredients =
@@ -179,22 +180,22 @@ data:extend(
       {"advanced-circuit", 10},
       {type="fluid", name="lubricant", amount=4}
     },
-    result = "rapid-splitter-mk1"
+    result = "blistering-splitter"
   },
   {
     type = "recipe",
 	energy_required = 0.5,
     category = "crafting-with-fluid",
-    name = "rapid-splitter-mk2",
+    name = "furious-splitter",
     enabled = false,
     energy_required = 2,
     ingredients =
     {
-      {"rapid-splitter-mk1", 1},
+      {"blistering-splitter", 1},
       {"iron-gear-wheel", 10},
       {"advanced-circuit", 10},
       {type="fluid", name="lubricant", amount=8}
     },
-    result = "rapid-splitter-mk2"
+    result = "furious-splitter"
   }
 })
