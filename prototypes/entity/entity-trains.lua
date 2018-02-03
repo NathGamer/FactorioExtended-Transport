@@ -60,10 +60,12 @@ data:extend({
       {
         {
           priority = "very-low",
+          slice = 4,
           width = 222,
           height = 205,
           back_equals_front = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
@@ -73,13 +75,37 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 8,
-          shift = {0, -0.796875}
+          shift = {0, -0.796875},
+          hr_version =
+          {
+            priority = "very-low",
+            slice = 4,
+            width = 442,
+            height = 407,
+            back_equals_front = true,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-3.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-4.png"
+            },
+            line_length = 4,
+            lines_per_file = 8,
+            shift = util.by_pixel(0, -25.25),
+            scale = 0.5
+          }
         },
         {
           flags = { "mask" },
+          priority = "very-low",
+          slice = 4,
           width = 196,
           height = 174,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           back_equals_front = true,
           apply_runtime_tint = true,
           shift = {0, -1.125},
@@ -91,14 +117,38 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 11,
+          hr_version =
+          {
+            flags = { "mask" },
+            priority = "very-low",
+            slice = 4,
+            width = 406,
+            height = 371,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            back_equals_front = true,
+            apply_runtime_tint = true,
+            shift = util.by_pixel(-0.5, -30.25),
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-3.png"
+            },
+            line_length = 4,
+            lines_per_file = 11,
+            scale = 0.5
+          }
         },
         {
-          flags = { "compressed" },
+          flags = { "shadow" },
+          priority = "very-low",
           width = 246,
           height = 201,
           back_equals_front = true,
           draw_as_shadow = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-1.png",
@@ -108,7 +158,29 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 8,
-          shift = {0.8, -0.078125}
+          shift = {0.8, -0.078125},
+          hr_version =
+          {
+            flags = { "shadow" },
+            priority = "very-low",
+            width = 490,
+            height = 401,
+            back_equals_front = true,
+            draw_as_shadow = true,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-3.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-4.png"
+            },
+            line_length = 4,
+            lines_per_file = 8,
+            shift = util.by_pixel(32, -2.25),
+            scale = 0.5
+          }
         }
       }
     },
@@ -122,7 +194,17 @@ data:extend({
           width = 220,
           height = 33,
           frame_count = 8,
-          shift = {0, -0.921875}
+          shift = {0, -0.921875},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-end.png",
+            line_length = 1,
+            width = 438,
+            height = 63,
+            frame_count = 8,
+            shift = util.by_pixel(0, -29.25),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side.png",
@@ -130,7 +212,17 @@ data:extend({
           width = 186,
           height = 38,
           frame_count = 8,
-          shift = {0, -0.78125}
+          shift = {0, -0.78125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side.png",
+            line_length = 1,
+            width = 368,
+            height = 76,
+            frame_count = 8,
+            shift = util.by_pixel(0, -24.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side-mask.png",
@@ -139,7 +231,18 @@ data:extend({
           line_length = 1,
           frame_count = 8,
           shift = {0, -0.828125},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side-mask.png",
+            width = 320,
+            height = 69,
+            line_length = 1,
+            frame_count = 8,
+            shift = util.by_pixel(0, -26.25),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top.png",
@@ -147,7 +250,17 @@ data:extend({
           width = 184,
           height = 28,
           frame_count = 8,
-          shift = {0.015625, -1.125}
+          shift = {0.015625, -1.125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top.png",
+            line_length = 1,
+            width = 369,
+            height = 54,
+            frame_count = 8,
+            shift = util.by_pixel(0.75, -35.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top-mask.png",
@@ -156,7 +269,18 @@ data:extend({
           frame_count = 8,
           line_length = 1,
           shift = {0.015625, -1.17188},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top-mask.png",
+            width = 369,
+            height = 45,
+            frame_count = 8,
+            line_length = 1,
+            shift = util.by_pixel(0.75, -37.75),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         }
       }
     },
@@ -168,9 +292,19 @@ data:extend({
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-end.png",
           line_length = 8,
           width = 30,
-          height = 202,
+          height = 23,
           frame_count = 8,
-          shift = {0, -0.84375}
+          shift = util.by_pixel(0, 62.5),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-end.png",
+            line_length = 8,
+            width = 58,
+            height = 44,
+            frame_count = 8,
+            shift = util.by_pixel(0, 62.5),-- 241),--62.5+178.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side.png",
@@ -178,7 +312,17 @@ data:extend({
           width = 67,
           height = 169,
           frame_count = 8,
-          shift = {0.015625, -1.01563}
+          shift = {0.015625, -1.01563},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side.png",
+            line_length = 8,
+            width = 127,
+            height = 337,
+            frame_count = 8,
+            shift = util.by_pixel(0.25, -32.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side-mask.png",
@@ -187,7 +331,18 @@ data:extend({
           height = 163,
           frame_count = 8,
           shift = {0, -1.10938},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side-mask.png",
+            line_length = 8,
+            width = 112,
+            height = 326,
+            frame_count = 8,
+            shift = util.by_pixel(0, -35.5),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top.png",
@@ -195,7 +350,17 @@ data:extend({
           width = 32,
           height = 168,
           frame_count = 8,
-          shift = {0, -1.125}
+          shift = {0, -1.125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top.png",
+            line_length = 8,
+            width = 64,
+            height = 337,
+            frame_count = 8,
+            shift = util.by_pixel(0, -35.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top-mask.png",
@@ -204,7 +369,18 @@ data:extend({
           height = 166,
           frame_count = 8,
           shift = {0, -1.15625},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top-mask.png",
+            line_length = 8,
+            width = 64,
+            height = 332,
+            frame_count = 8,
+            shift = util.by_pixel(0, -37),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         }
       }
     },
@@ -225,7 +401,7 @@ data:extend({
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     sound_minimum_speed = 0.5;
-    vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 }
   },
   {
     type = "cargo-wagon",
@@ -236,14 +412,14 @@ data:extend({
     inventory_size = 100,
     minable = {mining_time = 1, result = "cargo-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
-    max_health = 2400,
+    max_health = 1800,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
     collision_box = {{-0.6, -2.4}, {0.6, 2.4}},
     selection_box = {{-1, -2.703125}, {1, 3.296875}},
     vertical_selection_shift = -0.796875,
     weight = 1000,
-    max_speed = 1.5,
+    max_speed = 2,
     braking_force = 3,
     friction_force = 0.01,
     air_resistance = 0.0001,
@@ -287,10 +463,12 @@ data:extend({
       {
         {
           priority = "very-low",
+          slice = 4,
           width = 222,
           height = 205,
           back_equals_front = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
@@ -300,13 +478,37 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 8,
-          shift = {0, -0.796875}
+          shift = {0, -0.796875},
+          hr_version =
+          {
+            priority = "very-low",
+            slice = 4,
+            width = 442,
+            height = 407,
+            back_equals_front = true,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-3.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-4.png"
+            },
+            line_length = 4,
+            lines_per_file = 8,
+            shift = util.by_pixel(0, -25.25),
+            scale = 0.5
+          }
         },
         {
           flags = { "mask" },
+          priority = "very-low",
+          slice = 4,
           width = 196,
           height = 174,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           back_equals_front = true,
           apply_runtime_tint = true,
           shift = {0, -1.125},
@@ -318,14 +520,38 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 11,
+          hr_version =
+          {
+            flags = { "mask" },
+            priority = "very-low",
+            slice = 4,
+            width = 406,
+            height = 371,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            back_equals_front = true,
+            apply_runtime_tint = true,
+            shift = util.by_pixel(-0.5, -30.25),
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-mask-3.png"
+            },
+            line_length = 4,
+            lines_per_file = 11,
+            scale = 0.5
+          }
         },
         {
-          flags = { "compressed" },
+          flags = { "shadow" },
+          priority = "very-low",
           width = 246,
           height = 201,
           back_equals_front = true,
           draw_as_shadow = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-shadow-1.png",
@@ -335,7 +561,29 @@ data:extend({
           },
           line_length = 4,
           lines_per_file = 8,
-          shift = {0.8, -0.078125}
+          shift = {0.8, -0.078125},
+          hr_version =
+          {
+            flags = { "shadow" },
+            priority = "very-low",
+            width = 490,
+            height = 401,
+            back_equals_front = true,
+            draw_as_shadow = true,
+            direction_count = 128,
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-1.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-2.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-3.png",
+              "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-shadow-4.png"
+            },
+            line_length = 4,
+            lines_per_file = 8,
+            shift = util.by_pixel(32, -2.25),
+            scale = 0.5
+          }
         }
       }
     },
@@ -349,7 +597,17 @@ data:extend({
           width = 220,
           height = 33,
           frame_count = 8,
-          shift = {0, -0.921875}
+          shift = {0, -0.921875},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-end.png",
+            line_length = 1,
+            width = 438,
+            height = 63,
+            frame_count = 8,
+            shift = util.by_pixel(0, -29.25),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side.png",
@@ -357,7 +615,17 @@ data:extend({
           width = 186,
           height = 38,
           frame_count = 8,
-          shift = {0, -0.78125}
+          shift = {0, -0.78125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side.png",
+            line_length = 1,
+            width = 368,
+            height = 76,
+            frame_count = 8,
+            shift = util.by_pixel(0, -24.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-side-mask.png",
@@ -366,7 +634,18 @@ data:extend({
           line_length = 1,
           frame_count = 8,
           shift = {0, -0.828125},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side-mask.png",
+            width = 320,
+            height = 69,
+            line_length = 1,
+            frame_count = 8,
+            shift = util.by_pixel(0, -26.25),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top.png",
@@ -374,7 +653,17 @@ data:extend({
           width = 184,
           height = 28,
           frame_count = 8,
-          shift = {0.015625, -1.125}
+          shift = {0.015625, -1.125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top.png",
+            line_length = 1,
+            width = 369,
+            height = 54,
+            frame_count = 8,
+            shift = util.by_pixel(0.75, -35.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-horizontal-top-mask.png",
@@ -383,7 +672,18 @@ data:extend({
           frame_count = 8,
           line_length = 1,
           shift = {0.015625, -1.17188},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top-mask.png",
+            width = 369,
+            height = 45,
+            frame_count = 8,
+            line_length = 1,
+            shift = util.by_pixel(0.75, -37.75),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         }
       }
     },
@@ -395,9 +695,19 @@ data:extend({
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-end.png",
           line_length = 8,
           width = 30,
-          height = 202,
+          height = 23,
           frame_count = 8,
-          shift = {0, -0.84375}
+          shift = util.by_pixel(0, 62.5),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-end.png",
+            line_length = 8,
+            width = 58,
+            height = 44,
+            frame_count = 8,
+            shift = util.by_pixel(0, 62.5),-- 241),--62.5+178.5),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side.png",
@@ -405,7 +715,17 @@ data:extend({
           width = 67,
           height = 169,
           frame_count = 8,
-          shift = {0.015625, -1.01563}
+          shift = {0.015625, -1.01563},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side.png",
+            line_length = 8,
+            width = 127,
+            height = 337,
+            frame_count = 8,
+            shift = util.by_pixel(0.25, -32.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-side-mask.png",
@@ -414,7 +734,18 @@ data:extend({
           height = 163,
           frame_count = 8,
           shift = {0, -1.10938},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side-mask.png",
+            line_length = 8,
+            width = 112,
+            height = 326,
+            frame_count = 8,
+            shift = util.by_pixel(0, -35.5),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top.png",
@@ -422,7 +753,17 @@ data:extend({
           width = 32,
           height = 168,
           frame_count = 8,
-          shift = {0, -1.125}
+          shift = {0, -1.125},
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top.png",
+            line_length = 8,
+            width = 64,
+            height = 337,
+            frame_count = 8,
+            shift = util.by_pixel(0, -35.75),
+            scale = 0.5
+          }
         },
         {
           filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-door-vertical-top-mask.png",
@@ -431,7 +772,18 @@ data:extend({
           height = 166,
           frame_count = 8,
           shift = {0, -1.15625},
-          apply_runtime_tint = true
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top-mask.png",
+            line_length = 8,
+            width = 64,
+            height = 332,
+            frame_count = 8,
+            shift = util.by_pixel(0, -37),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         }
       }
     },
@@ -452,15 +804,15 @@ data:extend({
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     sound_minimum_speed = 0.5;
-    vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 }
   },
   
   --Locomotive
   {
     type = "locomotive",
     name = "locomotive-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk2.png",
     icon_size = 32,
+    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk2.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -470,15 +822,15 @@ data:extend({
     collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
     selection_box = {{-1, -3}, {1, 3}},
     drawing_box = {{-1, -4}, {1, 3}},
+    alert_icon_shift = util.by_pixel(0, -24),
     weight = 2000,
-    max_speed = 1.5,
+    max_speed = 1.6,
     max_power = "600kW",
     reversing_power_modifier = 0.8,
     braking_force = 15,
     friction_force = 0.50,
     vertical_selection_shift = -0.5,
-    -- this is a percentage of current speed that will be subtracted
-    air_resistance = 0.005,
+    air_resistance = 0.005, -- this is a percentage of current speed that will be subtracted
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 5,
@@ -487,27 +839,27 @@ data:extend({
       {
         type = "fire",
         decrease = 15,
-        percent = 50
+        percent = 60
       },
       {
         type = "physical",
         decrease = 15,
-        percent = 30
+        percent = 40
       },
       {
         type = "impact",
         decrease = 50,
-        percent = 60
+        percent = 70
       },
       {
         type = "explosion",
         decrease = 15,
-        percent = 30
+        percent = 40
       },
       {
         type = "acid",
         decrease = 10,
-        percent = 20
+        percent = 30
       }
     },
     burner =
@@ -539,14 +891,16 @@ data:extend({
         picture =
         {
           filename = "__core__/graphics/light-cone.png",
-          priority = "medium",
+          priority = "extra-high",
+          flags = { "light" },
           scale = 2,
           width = 200,
           height = 200
         },
         shift = {-0.6, -16},
         size = 2,
-        intensity = 0.6
+        intensity = 0.6,
+        color = {r = 1.0, g = 0.9, b = 0.9}
       },
       {
         type = "oriented",
@@ -554,14 +908,16 @@ data:extend({
         picture =
         {
           filename = "__core__/graphics/light-cone.png",
-          priority = "medium",
+          priority = "extra-high",
+          flags = { "light" },
           scale = 2,
           width = 200,
           height = 200
         },
         shift = {0.6, -16},
         size = 2,
-        intensity = 0.6
+        intensity = 0.6,
+        color = {r = 1.0, g = 0.9, b = 0.9}
       }
     },
     back_light = rolling_stock_back_light(),
@@ -572,10 +928,12 @@ data:extend({
       layers =
       {
         {
+          slice = 4,
           priority = "very-low",
           width = 238,
           height = 230,
           direction_count = 256,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-01.png",
@@ -593,9 +951,11 @@ data:extend({
           hr_version =
             {
             priority = "very-low",
+            slice = 4,
             width = 474,
             height = 458,
             direction_count = 256,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-1.png",
@@ -624,9 +984,11 @@ data:extend({
         {
           priority = "very-low",
           flags = { "mask" },
+          slice = 4,
           width = 236,
           height = 228,
           direction_count = 256,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-mask-01.png",
@@ -646,9 +1008,11 @@ data:extend({
             {
               priority = "very-low",
               flags = { "mask" },
+              slice = 4,
               width = 472,
               height = 456,
               direction_count = 256,
+              allow_low_quality_rotation = true,
               filenames =
               {
                 "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-mask-1.png",
@@ -677,11 +1041,12 @@ data:extend({
         },
         {
           priority = "very-low",
-          flags = { "compressed" },
+          flags = { "shadow" },
           width = 253,
           height = 212,
           direction_count = 256,
           draw_as_shadow = true,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-01.png",
@@ -758,8 +1123,8 @@ data:extend({
   {
     type = "locomotive",
     name = "locomotive-mk3",
-    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk3.png",
     icon_size = 32,
+    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk3.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -769,6 +1134,7 @@ data:extend({
     collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
     selection_box = {{-1, -3}, {1, 3}},
     drawing_box = {{-1, -4}, {1, 3}},
+    alert_icon_shift = util.by_pixel(0, -24),
     weight = 2000,
     max_speed = 2.0,
     max_power = "600kW",
@@ -776,8 +1142,7 @@ data:extend({
     braking_force = 20,
     friction_force = 0.25,
     vertical_selection_shift = -0.5,
-    -- this is a percentage of current speed that will be subtracted
-    air_resistance = 0.0075,
+    air_resistance = 0.0025,-- this is a percentage of current speed that will be subtracted
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 5,
@@ -838,14 +1203,16 @@ data:extend({
         picture =
         {
           filename = "__core__/graphics/light-cone.png",
-          priority = "medium",
+          priority = "extra-high",
+          flags = { "light" },
           scale = 2,
           width = 200,
           height = 200
         },
         shift = {-0.6, -16},
         size = 2,
-        intensity = 0.6
+        intensity = 0.6,
+        color = {r = 1.0, g = 0.9, b = 0.9}
       },
       {
         type = "oriented",
@@ -853,14 +1220,16 @@ data:extend({
         picture =
         {
           filename = "__core__/graphics/light-cone.png",
-          priority = "medium",
+          priority = "extra-high",
+          flags = { "light" },
           scale = 2,
           width = 200,
           height = 200
         },
         shift = {0.6, -16},
         size = 2,
-        intensity = 0.6
+        intensity = 0.6,
+        color = {r = 1.0, g = 0.9, b = 0.9}
       }
     },
     back_light = rolling_stock_back_light(),
@@ -871,10 +1240,12 @@ data:extend({
       layers =
       {
         {
+          slice = 4,
           priority = "very-low",
           width = 238,
           height = 230,
           direction_count = 256,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-01.png",
@@ -892,9 +1263,11 @@ data:extend({
           hr_version =
             {
             priority = "very-low",
+            slice = 4,
             width = 474,
             height = 458,
             direction_count = 256,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-1.png",
@@ -923,9 +1296,11 @@ data:extend({
         {
           priority = "very-low",
           flags = { "mask" },
+          slice = 4,
           width = 236,
           height = 228,
           direction_count = 256,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-mask-01.png",
@@ -945,9 +1320,11 @@ data:extend({
             {
               priority = "very-low",
               flags = { "mask" },
+              slice = 4,
               width = 472,
               height = 456,
               direction_count = 256,
+              allow_low_quality_rotation = true,
               filenames =
               {
                 "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-mask-1.png",
@@ -976,11 +1353,12 @@ data:extend({
         },
         {
           priority = "very-low",
-          flags = { "compressed" },
+          flags = { "shadow" },
           width = 253,
           height = 212,
           direction_count = 256,
           draw_as_shadow = true,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-01.png",
@@ -1065,67 +1443,18 @@ data:extend({
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
-    max_health = 1000,
-    capacity = 25000 * 3,
+    max_health = 1200,
+    capacity = 75000,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
     collision_box = {{-0.6, -2.4}, {0.6, 2.4}},
     selection_box = {{-1, -2.703125}, {1, 3.296875}},
-    gui_front_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/front-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_center_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/center-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_back_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/back-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_connect_front_center_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/connector-front-center.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_connect_center_back_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/connector-center-back.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_front_center_tank_indiciation =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/1.png",
-      width = 32,
-      height = 32,
-      flags = {"icon"}
-    },
-    gui_center_back_tank_indiciation =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/2.png",
-      width = 32,
-      height = 32,
-      flags = {"icon"}
-    },
     vertical_selection_shift = -0.796875,
-    weight = 4500,
+    weight = 1000,
     max_speed = 1.5,
     braking_force = 3,
     friction_force = 0.50,
-    air_resistance = 0.05,
+    air_resistance = 0.01,
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 6,
@@ -1134,12 +1463,12 @@ data:extend({
       {
         type = "fire",
         decrease = 15,
-        percent = 75
+        percent = 50
       },
       {
         type = "physical",
         decrease = 15,
-        percent = 40
+        percent = 30
       },
       {
         type = "impact",
@@ -1149,12 +1478,12 @@ data:extend({
       {
         type = "explosion",
         decrease = 15,
-        percent = 40
+        percent = 30
       },
       {
         type = "acid",
         decrease = 10,
-        percent = 30
+        percent = 20
       }
     },
     back_light = rolling_stock_back_light(),
@@ -1166,10 +1495,12 @@ data:extend({
       {
         {
           priority = "very-low",
+          slice = 4,
           width = 208,
           height = 210,
           back_equals_front = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-1.png",
@@ -1183,10 +1514,12 @@ data:extend({
           hr_version =
           {
             priority = "very-low",
+            slice = 4,
             width = 416,
             height = 419,
             back_equals_front = true,
             direction_count = 128,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-1.png",
@@ -1205,12 +1538,14 @@ data:extend({
           }
         },
         {
-          flags = { "compressed" },
+          flags = { "shadow" },
+          priority = "very-low",
           width = 251,
           height = 188,
           back_equals_front = true,
           draw_as_shadow = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/fluid-wagon/fluid-wagon-shadow-1.png",
@@ -1223,12 +1558,14 @@ data:extend({
           shift = {0.875 + 0.013, 0.3125 + 0.077},
           hr_version =
           {
-            flags = { "compressed" },
+            flags = { "shadow" },
+            priority = "very-low",
             width = 501,
             height = 375,
             back_equals_front = true,
             draw_as_shadow = true,
             direction_count = 128,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__base__/graphics/entity/fluid-wagon/hr-fluid-wagon-shadow-1.png",
@@ -1262,7 +1599,7 @@ data:extend({
     },
     crash_trigger = crash_trigger(),
     sound_minimum_speed = 0.5;
-    vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 }
   },
   {
     type = "fluid-wagon",
@@ -1272,67 +1609,18 @@ data:extend({
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
-    max_health = 1200,
-    capacity = 25000 * 6,
+    max_health = 1800,
+    capacity = 175000,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
     collision_box = {{-0.6, -2.4}, {0.6, 2.4}},
     selection_box = {{-1, -2.703125}, {1, 3.296875}},
-    gui_front_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/front-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_center_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/center-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_back_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/back-tank.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_connect_front_center_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/connector-front-center.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_connect_center_back_tank =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/connector-center-back.png",
-      width = 64,
-      height = 64,
-      flags = {"icon"}
-    },
-    gui_front_center_tank_indiciation =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/1.png",
-      width = 32,
-      height = 32,
-      flags = {"icon"}
-    },
-    gui_center_back_tank_indiciation =
-    {
-      filename = "__base__/graphics/entity/fluid-wagon/gui/2.png",
-      width = 32,
-      height = 32,
-      flags = {"icon"}
-    },
     vertical_selection_shift = -0.796875,
-    weight = 6000,
+    weight = 1000,
     max_speed = 1.5,
     braking_force = 3,
     friction_force = 0.50,
-    air_resistance = 0.05,
+    air_resistance = 0.01,
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 6,
@@ -1341,42 +1629,44 @@ data:extend({
       {
         type = "fire",
         decrease = 15,
-        percent = 80
+        percent = 50
       },
       {
         type = "physical",
         decrease = 15,
-        percent = 60
+        percent = 30
       },
       {
         type = "impact",
         decrease = 50,
-        percent = 80
+        percent = 60
       },
       {
         type = "explosion",
         decrease = 15,
-        percent = 60
+        percent = 30
       },
       {
         type = "acid",
         decrease = 10,
-        percent = 50
+        percent = 20
       }
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 153, g = 0, b = 0, a = 0.5},
+    color = {r = 31, g = 64, b = 155, a = 0.5},
     pictures =
     {
       layers =
       {
         {
           priority = "very-low",
+          slice = 4,
           width = 208,
           height = 210,
           back_equals_front = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-1.png",
@@ -1390,10 +1680,12 @@ data:extend({
           hr_version =
           {
             priority = "very-low",
+            slice = 4,
             width = 416,
             height = 419,
             back_equals_front = true,
             direction_count = 128,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-1.png",
@@ -1412,12 +1704,14 @@ data:extend({
           }
         },
         {
-          flags = { "compressed" },
+          flags = { "shadow" },
+          priority = "very-low",
           width = 251,
           height = 188,
           back_equals_front = true,
           draw_as_shadow = true,
           direction_count = 128,
+          allow_low_quality_rotation = true,
           filenames =
           {
             "__base__/graphics/entity/fluid-wagon/fluid-wagon-shadow-1.png",
@@ -1430,12 +1724,14 @@ data:extend({
           shift = {0.875 + 0.013, 0.3125 + 0.077},
           hr_version =
           {
-            flags = { "compressed" },
+            flags = { "shadow" },
+            priority = "very-low",
             width = 501,
             height = 375,
             back_equals_front = true,
             draw_as_shadow = true,
             direction_count = 128,
+            allow_low_quality_rotation = true,
             filenames =
             {
               "__base__/graphics/entity/fluid-wagon/hr-fluid-wagon-shadow-1.png",
