@@ -804,7 +804,7 @@ data:extend({
     {
       up =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-up.png",
+        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-up.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.10, -0.04}
@@ -819,7 +819,7 @@ data:extend({
       },
       down =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-down.png",
+        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-down.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.05, 0}
@@ -834,7 +834,7 @@ data:extend({
       },
       left =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-left.png",
+        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-left.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {-0.12, 0.1}
@@ -849,7 +849,7 @@ data:extend({
       },
       right =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-right.png",
+        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-right.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.1, 0.1}
