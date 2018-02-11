@@ -742,7 +742,7 @@ data:extend({
       match_volume_to_activity = true,
       max_sounds_per_type = 3
     },
-	
+  
     horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
     vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
   },
@@ -964,7 +964,7 @@ data:extend({
         width = 160,
         height = 20
       },
-	  gas_flow =
+      gas_flow =
       {
         filename = "__base__/graphics/entity/pipe/steam.png",
         priority = "extra-high",
@@ -1513,7 +1513,7 @@ data:extend({
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 190,
-	max_distance = 22,
+  max_distance = 22,
     corpse = "small-remnants",
     underground_sprite =
     {

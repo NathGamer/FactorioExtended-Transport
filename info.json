@@ -1,12 +1,12 @@
 {
   "name": "FactorioExtended-Transport",
-  "version": "0.3.3",
-	"factorio_version": "0.16",
-	"date": "2018-02-02",
+  "version": "0.3.5",
+  "factorio_version": "0.16",
+  "date": "2018-02-02",
   "title": "FactorioExtended-Transport",
   "author": "Nath Gamer",
   "contributers": "jimmyjon711",
-	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
   "description": "For your transporting need here comes Factorio Extended to help you along!",
-	"dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
+  "dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
 }

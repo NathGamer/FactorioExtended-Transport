@@ -1,0 +1,6 @@
+Version: 0.3.5
+Date: 02. 10. 2018
+  Bugfixes:
+    - Fixing SD images
+  Changes :
+    - Remove locomotive image from folder and tinted base game locomotive. Doing this reduces mod size

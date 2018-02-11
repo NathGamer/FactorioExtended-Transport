@@ -1,6 +1,6 @@
 data:extend({
   {
-	--Cargo Wagon
+    --Cargo Wagon
     type = "cargo-wagon",
     name = "cargo-wagon-mk2",
     icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk2.png",
@@ -53,7 +53,7 @@ data:extend({
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 0, g = 77, b = 0, a = 0.5}, --Vanilla Color{r = 0.43, g = 0.23, b = 0, a = 0.5}
+    color = {r=0.4, g=0.804, b=0.667, a=0.8},
     pictures =
     {
       layers =
@@ -66,6 +66,7 @@ data:extend({
           back_equals_front = true,
           direction_count = 128,
           allow_low_quality_rotation = true,
+          tint = {r=0.4, g=0.804, b=0.667, a=0.8},
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
@@ -85,6 +86,7 @@ data:extend({
             back_equals_front = true,
             direction_count = 128,
             allow_low_quality_rotation = true,
+            tint = {r=0.4, g=0.804, b=0.667, a=0.8},
             filenames =
             {
               "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-1.png",
@@ -107,7 +109,7 @@ data:extend({
           direction_count = 128,
           allow_low_quality_rotation = true,
           back_equals_front = true,
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           shift = {0, -1.125},
           filenames =
           {
@@ -127,7 +129,7 @@ data:extend({
             direction_count = 128,
             allow_low_quality_rotation = true,
             back_equals_front = true,
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             shift = util.by_pixel(-0.5, -30.25),
             filenames =
             {
@@ -221,6 +223,7 @@ data:extend({
             height = 76,
             frame_count = 8,
             shift = util.by_pixel(0, -24.5),
+
             scale = 0.5
           }
         },
@@ -231,7 +234,7 @@ data:extend({
           line_length = 1,
           frame_count = 8,
           shift = {0, -0.828125},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side-mask.png",
@@ -240,7 +243,7 @@ data:extend({
             line_length = 1,
             frame_count = 8,
             shift = util.by_pixel(0, -26.25),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         },
@@ -269,7 +272,7 @@ data:extend({
           frame_count = 8,
           line_length = 1,
           shift = {0.015625, -1.17188},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top-mask.png",
@@ -278,7 +281,7 @@ data:extend({
             frame_count = 8,
             line_length = 1,
             shift = util.by_pixel(0.75, -37.75),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         }
@@ -331,7 +334,7 @@ data:extend({
           height = 163,
           frame_count = 8,
           shift = {0, -1.10938},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side-mask.png",
@@ -340,7 +343,7 @@ data:extend({
             height = 326,
             frame_count = 8,
             shift = util.by_pixel(0, -35.5),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         },
@@ -369,7 +372,7 @@ data:extend({
           height = 166,
           frame_count = 8,
           shift = {0, -1.15625},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top-mask.png",
@@ -378,7 +381,7 @@ data:extend({
             height = 332,
             frame_count = 8,
             shift = util.by_pixel(0, -37),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         }
@@ -456,7 +459,7 @@ data:extend({
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 31, g = 64, b = 155, a = 0.5}, --Vanilla Color{r = 0.43, g = 0.23, b = 0, a = 0.5}
+    color = {r=0.690, g=0.75, b=1},
     pictures =
     {
       layers =
@@ -469,6 +472,7 @@ data:extend({
           back_equals_front = true,
           direction_count = 128,
           allow_low_quality_rotation = true,
+          tint = {r=0.690, g=0.75, b=1},
           filenames =
           {
             "__base__/graphics/entity/cargo-wagon/cargo-wagon-1.png",
@@ -488,6 +492,7 @@ data:extend({
             back_equals_front = true,
             direction_count = 128,
             allow_low_quality_rotation = true,
+            tint = {r=0.690, g=0.75, b=1},
             filenames =
             {
               "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-1.png",
@@ -510,7 +515,6 @@ data:extend({
           direction_count = 128,
           allow_low_quality_rotation = true,
           back_equals_front = true,
-          apply_runtime_tint = true,
           shift = {0, -1.125},
           filenames =
           {
@@ -530,7 +534,6 @@ data:extend({
             direction_count = 128,
             allow_low_quality_rotation = true,
             back_equals_front = true,
-            apply_runtime_tint = true,
             shift = util.by_pixel(-0.5, -30.25),
             filenames =
             {
@@ -634,7 +637,7 @@ data:extend({
           line_length = 1,
           frame_count = 8,
           shift = {0, -0.828125},
-          apply_runtime_tint = true,
+          tint = {r=0.275, g=0.510, b=0.706},
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-side-mask.png",
@@ -643,7 +646,6 @@ data:extend({
             line_length = 1,
             frame_count = 8,
             shift = util.by_pixel(0, -26.25),
-            apply_runtime_tint = true,
             scale = 0.5
           }
         },
@@ -672,7 +674,7 @@ data:extend({
           frame_count = 8,
           line_length = 1,
           shift = {0.015625, -1.17188},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-horizontal-top-mask.png",
@@ -681,7 +683,7 @@ data:extend({
             frame_count = 8,
             line_length = 1,
             shift = util.by_pixel(0.75, -37.75),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         }
@@ -734,7 +736,7 @@ data:extend({
           height = 163,
           frame_count = 8,
           shift = {0, -1.10938},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-side-mask.png",
@@ -743,7 +745,7 @@ data:extend({
             height = 326,
             frame_count = 8,
             shift = util.by_pixel(0, -35.5),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         },
@@ -772,7 +774,7 @@ data:extend({
           height = 166,
           frame_count = 8,
           shift = {0, -1.15625},
-          apply_runtime_tint = true,
+          --apply_runtime_tint = true,
           hr_version =
           {
             filename = "__base__/graphics/entity/cargo-wagon/hr-cargo-wagon-door-vertical-top-mask.png",
@@ -781,7 +783,7 @@ data:extend({
             height = 332,
             frame_count = 8,
             shift = util.by_pixel(0, -37),
-            apply_runtime_tint = true,
+            --apply_runtime_tint = true,
             scale = 0.5
           }
         }
@@ -922,7 +924,7 @@ data:extend({
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 32, g = 94, b = 65, a = 0.5},
+    color = {r=0.4, g=0.804, b=0.667, a=0.8},
     pictures =
     {
       layers =
@@ -934,16 +936,17 @@ data:extend({
           height = 230,
           direction_count = 256,
           allow_low_quality_rotation = true,
+          tint = {r=0.4, g=0.804, b=0.667, a=0.8},
           filenames =
           {
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-01.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-02.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-03.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-04.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-05.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-06.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-07.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/diesel-locomotive-08.png"
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-02.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-03.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-04.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-01.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-05.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-06.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-07.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-08.png"
           },
           line_length = 4,
           lines_per_file = 8,
@@ -956,24 +959,25 @@ data:extend({
             height = 458,
             direction_count = 256,
             allow_low_quality_rotation = true,
+            tint = {r=0.4, g=0.804, b=0.667, a=0.8},
             filenames =
             {
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-1.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-2.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-3.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-4.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-5.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-6.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-7.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-8.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-9.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-10.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-11.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-12.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-13.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-14.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-15.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk2/hr-diesel-locomotive-16.png"
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-1.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-2.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-3.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-4.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-5.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-6.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-7.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-8.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-9.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-10.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-11.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-12.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-13.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-14.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-15.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-16.png"
             },
             line_length = 4,
             lines_per_file = 4,
@@ -1212,7 +1216,7 @@ data:extend({
         shift = {-0.6, -16},
         size = 2,
         intensity = 0.6,
-        color = {r = 1.0, g = 0.9, b = 0.9}
+        color = {r=0.690, g=0.75, b=1}
       },
       {
         type = "oriented",
@@ -1229,12 +1233,12 @@ data:extend({
         shift = {0.6, -16},
         size = 2,
         intensity = 0.6,
-        color = {r = 1.0, g = 0.9, b = 0.9}
+        color = {r=0.690, g=0.75, b=1}
       }
     },
     back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 32, g = 68, b = 94, a = 0.5},
+    color = {r=0.690, g=0.75, b=1},
     pictures =
     {
       layers =
@@ -1246,16 +1250,17 @@ data:extend({
           height = 230,
           direction_count = 256,
           allow_low_quality_rotation = true,
+          tint = {r=0.690, g=0.75, b=1},
           filenames =
           {
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-01.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-02.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-03.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-04.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-05.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-06.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-07.png",
-            "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/diesel-locomotive-08.png"
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-01.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-02.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-03.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-04.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-05.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-06.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-07.png",
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-08.png"
           },
           line_length = 4,
           lines_per_file = 8,
@@ -1268,24 +1273,25 @@ data:extend({
             height = 458,
             direction_count = 256,
             allow_low_quality_rotation = true,
+            tint = {r=0.690, g=0.75, b=1},
             filenames =
             {
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-1.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-2.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-3.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-4.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-5.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-6.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-7.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-8.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-9.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-10.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-11.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-12.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-13.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-14.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-15.png",
-              "__FactorioExtended-Transport__/graphics/entity/diesel-locomotive-mk3/hr-diesel-locomotive-16.png"
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-1.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-2.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-3.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-4.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-5.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-6.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-7.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-8.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-9.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-10.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-11.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-12.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-13.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-14.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-15.png",
+              "__base__/graphics/entity/diesel-locomotive/hr-diesel-locomotive-16.png"
             },
             line_length = 4,
             lines_per_file = 4,
