@@ -2,13 +2,13 @@ pipepictures = function()
   return {
     straight_vertical_single =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-straight-vertical-single.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-vertical-single.png",
       priority = "extra-high",
       width = 80,
       height = 80,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical-single.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical-single.png",
         priority = "extra-high",
         width = 160,
         height = 160,
@@ -17,13 +17,13 @@ pipepictures = function()
     },
     straight_vertical =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-straight-vertical.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-vertical.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -32,13 +32,13 @@ pipepictures = function()
     },
     straight_vertical_window =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-straight-vertical-window.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-vertical-window.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical-window.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical-window.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -47,13 +47,13 @@ pipepictures = function()
     },
     straight_horizontal_window =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-straight-horizontal-window.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-horizontal-window.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-straight-horizontal-window.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-horizontal-window.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -62,13 +62,13 @@ pipepictures = function()
     },
     straight_horizontal =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-straight-horizontal.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-horizontal.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-straight-horizontal.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-horizontal.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -77,13 +77,13 @@ pipepictures = function()
     },
     corner_up_right =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-corner-up-right.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-corner-up-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-corner-up-right.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-corner-up-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -92,13 +92,13 @@ pipepictures = function()
     },
     corner_up_left =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-corner-up-left.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-corner-up-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-corner-up-left.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-corner-up-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -107,13 +107,13 @@ pipepictures = function()
     },
     corner_down_right =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-corner-down-right.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-corner-down-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-corner-down-right.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-corner-down-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -122,13 +122,13 @@ pipepictures = function()
     },
     corner_down_left =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-corner-down-left.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-corner-down-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-corner-down-left.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-corner-down-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -137,13 +137,13 @@ pipepictures = function()
     },
     t_up =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-t-up.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-t-up.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-t-up.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-t-up.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -152,13 +152,13 @@ pipepictures = function()
     },
     t_down =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-t-down.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-t-down.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-t-down.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-t-down.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -167,13 +167,13 @@ pipepictures = function()
     },
     t_right =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-t-right.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-t-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-t-right.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-t-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -182,13 +182,13 @@ pipepictures = function()
     },
     t_left =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-t-left.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-t-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-         filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-t-left.png",
+         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-t-left.png",
          priority = "extra-high",
          width = 128,
          height = 128,
@@ -197,13 +197,13 @@ pipepictures = function()
     },
     cross =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-cross.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-cross.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-cross.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-cross.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -212,13 +212,13 @@ pipepictures = function()
     },
     ending_up =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-ending-up.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-ending-up.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-ending-up.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-ending-up.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -227,13 +227,13 @@ pipepictures = function()
       },
     ending_down =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-ending-down.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-ending-down.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-ending-down.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-ending-down.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -242,13 +242,13 @@ pipepictures = function()
     },
     ending_right =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-ending-right.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-ending-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-ending-right.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-ending-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -257,13 +257,13 @@ pipepictures = function()
     },
     ending_left =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/pipe/pipe-ending-left.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-ending-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe/hr-pipe-ending-left.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-ending-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -367,13 +367,13 @@ pipecoverspictures = function()
     {
       layers = {
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/pipe-cover-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/pipe-cover-north.png",
           priority = "extra-high",
           width = 64,
           height = 64,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-north.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-north.png",
             priority = "extra-high",
             width = 128,
             height = 128,
@@ -403,13 +403,13 @@ pipecoverspictures = function()
       layers =
       {
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/pipe-cover-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/pipe-cover-east.png",
           priority = "extra-high",
           width = 64,
           height = 64,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-east.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-east.png",
             priority = "extra-high",
             width = 128,
             height = 128,
@@ -439,13 +439,13 @@ pipecoverspictures = function()
       layers =
       {
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/pipe-cover-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/pipe-cover-south.png",
           priority = "extra-high",
           width = 64,
           height = 64,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-south.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-south.png",
             priority = "extra-high",
             width = 128,
             height = 128,
@@ -475,13 +475,13 @@ pipecoverspictures = function()
       layers =
       {
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/pipe-cover-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/pipe-cover-west.png",
           priority = "extra-high",
           width = 64,
           height = 64,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-west.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-covers/hr-pipe-cover-west.png",
             priority = "extra-high",
             width = 128,
             height = 128,

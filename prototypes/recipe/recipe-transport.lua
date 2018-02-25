@@ -2,27 +2,27 @@ data:extend(
 {
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     name = "fast-inserter-mk2",
     enabled = false,
     ingredients =
     {
       {"fast-inserter", 1},
       {"advanced-circuit", 5},
-	  {"speed-module", 2}
+      {"speed-module", 2}
     },
     result = "fast-inserter-mk2"
   },
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     name = "fast-inserter-mk3",
     enabled = false,
     ingredients =
     {
       {"fast-inserter-mk2", 1},
       {"processing-unit", 5},
-	  {"speed-module-2", 2}
+      {"speed-module-2", 2}
     },
     result = "fast-inserter-mk3"
   },
@@ -45,21 +45,43 @@ data:extend(
     ingredients =
     {
       {"fast-long-handed-inserter", 1},
-	  {"filter-inserter", 1},
+      {"filter-inserter", 1},
       {"steel-plate", 2}
     },
     result = "filter-long-handed-inserter"
   },
-  
-  
+  {
+    type = "recipe",
+    name = "stack-inserter-mk2",
+    enabled = false,
+    ingredients =
+    {
+      {"stack-inserter", 2},
+      {"processing-unit", 15},
+      {"speed-module", 1}
+    },
+    result = "stack-inserter-mk2",
+  },
+  {
+    type = "recipe",
+    name = "stack-filter-inserter-mk2",
+    enabled = false,
+    ingredients =
+    {
+      {"stack-filter-inserter", 2},
+      {"processing-unit", 15},
+      {"speed-module", 1}
+    },
+    result = "stack-filter-inserter-mk2",
+  },
   {
     type = "recipe",
     name = "pipe-mk2",
     ingredients = 
-	{
-	  {"pipe", 1},
-	  {"iron-plate", 5}
-	},
+    {
+      {"pipe", 1},
+      {"iron-plate", 5}
+    },
     result = "pipe-mk2"
   },
   {
@@ -73,8 +95,6 @@ data:extend(
     result_count = 2,
     result = "pipe-to-ground-mk2"
   },
-  
-  
   {
     type = "recipe",
     name = "storage-tank-mk2",
@@ -82,7 +102,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-	  {"storage-tank", 4},
+      {"storage-tank", 4},
       {"titanium-alloy", 15}
     },
     result= "storage-tank-mk2"
@@ -94,7 +114,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-	  {"pump", 4},
+      {"pump", 4},
       {"advanced-circuit", 4},
       {"titanium-alloy", 5},
       {"pipe-mk2", 4},
@@ -102,11 +122,9 @@ data:extend(
     },
     result= "pump-mk2"
   },
-  
-  
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-transport-belt-mk1",
     enabled = false,
@@ -120,7 +138,7 @@ data:extend(
   },
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-transport-belt-mk2",
     enabled = false,
@@ -132,11 +150,9 @@ data:extend(
     },
     result = "rapid-transport-belt-mk2"
   },
-  
-  
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-transport-belt-to-ground-mk1",
     enabled = false,
@@ -151,7 +167,7 @@ data:extend(
   },
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-transport-belt-to-ground-mk2",
     enabled = false,
@@ -168,7 +184,7 @@ data:extend(
   
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-splitter-mk1",
     enabled = false,
@@ -184,7 +200,7 @@ data:extend(
   },
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     category = "crafting-with-fluid",
     name = "rapid-splitter-mk2",
     enabled = false,

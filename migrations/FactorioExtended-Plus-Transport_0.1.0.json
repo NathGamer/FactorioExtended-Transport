@@ -1,0 +1,42 @@
+
+{
+  "entity":
+  [
+    ["blistering-inserter", "fast-inserter-mk2"],
+    ["blistering-transport-belt", "rapid-transport-belt-mk1"],
+    ["blistering-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk1"],
+    ["blistering-splitter", "rapid-splitter-mk1"],
+
+    ["furious-inserter", "fast-inserter-mk3"],
+    ["furious-long-handed-inserter", "fast-long-handed-inserter"],
+    ["furious-transport-belt", "rapid-transport-belt-mk2"],
+    ["furious-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk2"],
+    ["furious-splitter", "rapid-splitter-mk2"]
+  ],
+  "item":
+  [
+    ["blistering-inserter", "fast-inserter-mk2"],
+    ["blistering-transport-belt", "rapid-transport-belt-mk1"],
+    ["blistering-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk1"],
+    ["blistering-splitter", "rapid-splitter-mk1"],
+
+    ["furious-inserter", "fast-inserter-mk3"],
+    ["furious-long-handed-inserter", "fast-long-handed-inserter"],
+    ["furious-transport-belt", "rapid-transport-belt-mk2"],
+    ["furious-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk2"],
+    ["furious-splitter", "rapid-splitter-mk2"]
+  ],
+  "recipe":
+  [
+    ["blistering-inserter", "fast-inserter-mk2"],
+    ["blistering-transport-belt", "rapid-transport-belt-mk1"],
+    ["blistering-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk1"],
+    ["blistering-splitter", "rapid-splitter-mk1"],
+
+    ["furious-inserter", "fast-inserter-mk3"],
+    ["furious-long-handed-inserter", "fast-long-handed-inserter"],
+    ["furious-transport-belt", "rapid-transport-belt-mk2"],
+    ["furious-transport-belt-to-ground", "rapid-transport-belt-to-ground-mk2"],
+    ["furious-splitter", "rapid-splitter-mk2"]
+  ]
+}

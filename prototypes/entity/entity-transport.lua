@@ -10,7 +10,7 @@ data:extend({
   {
     type = "inserter",
     name = "fast-inserter-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-inserter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
@@ -73,12 +73,12 @@ data:extend({
     },
     hand_base_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-base.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-base.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -87,12 +87,12 @@ data:extend({
     },
     hand_closed_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-closed.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-closed.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-closed.png",
         priority = "extra-high",
         width = 72,
         height = 164,
@@ -101,12 +101,12 @@ data:extend({
     },
     hand_open_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-open.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-open.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-open.png",
         priority = "extra-high",
         width = 72,
         height = 164,
@@ -159,13 +159,13 @@ data:extend({
     {
       sheet =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-platform.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-platform.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -182,7 +182,7 @@ data:extend({
     {
     type = "inserter",
     name = "fast-inserter-mk3",
-    icon = "__FactorioExtended-Transport__/graphics/icons/fast-inserter-mk3.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-inserter-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
@@ -245,12 +245,12 @@ data:extend({
     },
     hand_base_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-base.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-base.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -259,12 +259,12 @@ data:extend({
     },
     hand_closed_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-closed.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-closed.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-closed.png",
         priority = "extra-high",
         width = 72,
         height = 164,
@@ -273,12 +273,12 @@ data:extend({
     },
     hand_open_picture =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-open.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41,
       hr_version = {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-open.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-open.png",
         priority = "extra-high",
         width = 72,
         height = 164,
@@ -331,13 +331,13 @@ data:extend({
     {
       sheet =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-platform.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-platform.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -354,7 +354,7 @@ data:extend({
   {
     type = "inserter",
     name = "fast-long-handed-inserter",
-    icon = "__FactorioExtended-Transport__/graphics/icons/fast-long-handed-inserter.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-long-handed-inserter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-long-handed-inserter"},
@@ -500,13 +500,13 @@ data:extend({
     {
       sheet =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-platform.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-platform.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -523,7 +523,7 @@ data:extend({
   {
     type = "inserter",
     name = "filter-long-handed-inserter",
-    icon = "__FactorioExtended-Transport__/graphics/icons/smart-long-handed-inserter.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/smart-long-handed-inserter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "filter-long-handed-inserter"},
@@ -698,7 +698,7 @@ data:extend({
   {
     type = "pipe",
     name = "pipe-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/pipe-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pipe-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "pipe-mk2"},
@@ -749,7 +749,7 @@ data:extend({
   {
     type = "pipe-to-ground",
     name = "pipe-to-ground-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/pipe-to-ground-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pipe-to-ground-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "pipe-to-ground-mk2"},
@@ -804,13 +804,13 @@ data:extend({
     {
       up =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-up.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-up.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.10, -0.04}
         hr_version =
         {
-           filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-up.png",
+           filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-up.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -819,13 +819,13 @@ data:extend({
       },
       down =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-down.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-down.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.05, 0}
         hr_version =
         {
-           filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-down.png",
+           filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-down.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -834,13 +834,13 @@ data:extend({
       },
       left =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-left.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-left.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {-0.12, 0.1}
         hr_version =
         {
-           filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-left.png",
+           filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-left.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -849,13 +849,13 @@ data:extend({
       },
       right =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-right.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/pipe-to-ground-mk2-right.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.1, 0.1}
         hr_version =
         {
-           filename = "__FactorioExtended-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-right.png",
+           filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe-to-ground/hr-pipe-to-ground-right.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -869,7 +869,7 @@ data:extend({
   {
     type = "storage-tank",
     name = "storage-tank-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/storage-tank-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/storage-tank-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 3, result = "storage-tank-mk2"},
@@ -899,14 +899,14 @@ data:extend({
         sheets =
         {
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/storage-tank/storage-tank.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/storage-tank/storage-tank.png",
             priority = "extra-high",
             frames = 2,
             width = 110,
             height = 108,
             shift = util.by_pixel(0, 4),
             hr_version = {
-              filename = "__FactorioExtended-Transport__/graphics/entity/storage-tank/hr-storage-tank.png",
+              filename = "__FactorioExtended-Plus-Transport__/graphics/entity/storage-tank/hr-storage-tank.png",
               priority = "extra-high",
               frames = 2,
               width = 219,
@@ -1007,7 +1007,7 @@ data:extend({
   {
     type = "pump",
     name = "pump-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/pump-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pump-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pump-mk2"},
@@ -1052,7 +1052,7 @@ data:extend({
     {
       north =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pump/pump-north.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/pump-north.png",
         width = 53,
         height = 79,
         line_length =8,
@@ -1060,7 +1060,7 @@ data:extend({
         animation_speed = 0.5,
         shift = util.by_pixel(8.000, 7.500),
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pump/hr-pump-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/hr-pump-north.png",
           width = 103,
           height = 164,
           scale = 0.5,
@@ -1072,7 +1072,7 @@ data:extend({
       },
       east =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pump/pump-east.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/pump-east.png",
         width = 66,
         height = 60,
         line_length =8,
@@ -1080,7 +1080,7 @@ data:extend({
         animation_speed = 0.5,
         shift = util.by_pixel(0, 4),
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pump/hr-pump-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/hr-pump-east.png",
           width = 130,
           height = 109,
           scale = 0.5,
@@ -1093,7 +1093,7 @@ data:extend({
 
       south =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pump/pump-south.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/pump-south.png",
         width = 62,
         height = 87,
         line_length =8,
@@ -1101,7 +1101,7 @@ data:extend({
         animation_speed = 0.5,
         shift = util.by_pixel(13.5, 0.5),
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pump/hr-pump-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/hr-pump-south.png",
           width = 114,
           height = 160,
           scale = 0.5,
@@ -1113,7 +1113,7 @@ data:extend({
       },
       west =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/pump/pump-west.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/pump-west.png",
         width = 69,
         height = 51,
         line_length =8,
@@ -1121,7 +1121,7 @@ data:extend({
         animation_speed = 0.5,
         shift = util.by_pixel(0.5, -0.5),
         hr_version = {
-          filename = "__FactorioExtended-Transport__/graphics/entity/pump/hr-pump-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/hr-pump-west.png",
           width = 131,
           height = 111,
           scale = 0.5,
@@ -1278,7 +1278,7 @@ data:extend({
   {
     type = "transport-belt",
     name = "rapid-transport-belt-mk1",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk1"},
@@ -1305,7 +1305,7 @@ data:extend({
     animation_speed_coefficient = 32,
     animations =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 40,
       height = 40,
@@ -1313,7 +1313,7 @@ data:extend({
       direction_count = 12,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
         priority = "extra-high",
         width = 80,
         height = 80,
@@ -1342,7 +1342,7 @@ data:extend({
   {
     type = "transport-belt",
     name = "rapid-transport-belt-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk2"},
@@ -1369,7 +1369,7 @@ data:extend({
     animation_speed_coefficient = 32,
     animations =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 40,
       height = 40,
@@ -1377,7 +1377,7 @@ data:extend({
       direction_count = 12,
       hr_version =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
         priority = "extra-high",
         width = 80,
         height = 80,
@@ -1408,7 +1408,7 @@ data:extend({
   {
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk1",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk1"},
@@ -1463,7 +1463,7 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -1471,7 +1471,7 @@ data:extend({
           y = 43,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -1485,14 +1485,14 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -1508,12 +1508,12 @@ data:extend({
   {
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 190,
-  max_distance = 22,
+    max_distance = 22,
     corpse = "small-remnants",
     underground_sprite =
     {
@@ -1559,7 +1559,7 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -1567,7 +1567,7 @@ data:extend({
           y = 43,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -1581,14 +1581,14 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -1606,7 +1606,7 @@ data:extend({
   {
     type = "splitter",
     name = "rapid-splitter-mk1",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk1.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk1"},
@@ -1639,7 +1639,7 @@ data:extend({
     {
       north =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-north.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1648,7 +1648,7 @@ data:extend({
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1660,7 +1660,7 @@ data:extend({
       },
       east =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-east.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1669,7 +1669,7 @@ data:extend({
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1681,7 +1681,7 @@ data:extend({
       },
       south =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-south.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1690,7 +1690,7 @@ data:extend({
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1702,7 +1702,7 @@ data:extend({
       },
       west =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-west.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1711,7 +1711,7 @@ data:extend({
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1726,7 +1726,7 @@ data:extend({
   {
     type = "splitter",
     name = "rapid-splitter-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/rapid-splitter-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk2"},
@@ -1759,7 +1759,7 @@ data:extend({
     {
       north =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-north.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1768,7 +1768,7 @@ data:extend({
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1780,7 +1780,7 @@ data:extend({
       },
       east =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-east.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1789,7 +1789,7 @@ data:extend({
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1801,7 +1801,7 @@ data:extend({
       },
       south =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-south.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1810,7 +1810,7 @@ data:extend({
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1822,7 +1822,7 @@ data:extend({
       },
       west =
       {
-        filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-west.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -1831,7 +1831,7 @@ data:extend({
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -1842,5 +1842,353 @@ data:extend({
         }
       },
     },
-  }
+  },
+    {
+    type = "inserter",
+    name = "stack-inserter-mk2",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/stack-inserter-mk2.png",
+    icon_size = 32,
+    flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    stack = true,
+    minable =
+    {
+      hardness = 0.2,
+      mining_time = 0.5,
+      result = "stack-inserter-mk2"
+    },
+    max_health = 160,
+    corpse = "small-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 90
+      }
+    },
+    collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
+    selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
+    pickup_position = {0, -1},
+    insert_position = {0, 1.2},
+    energy_per_movement = 25000,
+    energy_per_rotation = 25000,
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      drain = "1.5kW"
+    },
+    extension_speed = 0.09,
+    rotation_speed = 0.07,
+    fast_replaceable_group = "inserter",
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-fast-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
+    hand_base_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-hand-base-mk2.png",
+      priority = "extra-high",
+      width = 8,
+      height = 34,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-hand-base-mk2.png",
+        priority = "extra-high",
+        width = 32,
+        height = 136,
+        scale = 0.25
+      }
+    },
+    hand_closed_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-hand-closed-mk2.png",
+      priority = "extra-high",
+      width = 24,
+      height = 41,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-hand-closed-mk2.png",
+        priority = "extra-high",
+        width = 100,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-hand-open-mk2.png",
+      priority = "extra-high",
+      width = 32,
+      height = 41,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-hand-open-mk2.png",
+        priority = "extra-high",
+        width = 130,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_base_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      priority = "extra-high",
+      width = 8,
+      height = 33,
+      hr_version = {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base-shadow.png",
+        priority = "extra-high",
+        width = 32,
+        height = 132,
+        scale = 0.25
+      }
+    },
+    hand_closed_shadow =
+    {
+      filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-closed-shadow.png",
+      priority = "extra-high",
+      width = 24,
+      height = 41,
+      hr_version = {
+        filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-closed-shadow.png",
+        priority = "extra-high",
+        width = 100,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_shadow =
+    {
+      filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-open-shadow.png",
+      priority = "extra-high",
+      width = 32,
+      height = 41,
+      hr_version = {
+        filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-open-shadow.png",
+        priority = "extra-high",
+        width = 130,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    platform_picture =
+    {
+      sheet =
+      {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-platform-mk2.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+        shift = {0.09375, 0},
+        hr_version = {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-platform-mk2.png",
+          priority = "extra-high",
+          width = 105,
+          height = 79,
+          shift = util.by_pixel(1.5, 7.5-1),
+          scale = 0.5
+        }
+      }
+    },
+    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
+    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
+    circuit_wire_max_distance = inserter_circuit_wire_max_distance,
+    default_stack_control_input_signal = inserter_default_stack_control_input_signal
+  },
+
+  {
+    type = "inserter",
+    name = "stack-filter-inserter-mk2",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/stack-filter-inserter-mk2.png",
+    icon_size = 32,
+    flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    stack = true,
+    filter_count = 1,
+    minable =
+    {
+      hardness = 0.2,
+      mining_time = 0.5,
+      result = "stack-filter-inserter"
+    },
+    max_health = 160,
+    corpse = "small-remnants",
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 90
+      }
+    },
+    collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
+    selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
+    pickup_position = {0, -1},
+    insert_position = {0, 1.2},
+    energy_per_movement = 25000,
+    energy_per_rotation = 25000,
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      drain = "1.5kW"
+    },
+    extension_speed = 0.09,
+    rotation_speed = 0.07,
+    fast_replaceable_group = "inserter",
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-fast-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-fast-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
+    hand_base_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/stack-filter-inserter-hand-base-mk2.png",
+      priority = "extra-high",
+      width = 8,
+      height = 34,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-hand-base-mk2.png",
+        priority = "extra-high",
+        width = 32,
+        height = 136,
+        scale = 0.25
+      }
+    },
+    hand_closed_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/stack-filter-inserter-hand-closed-mk2.png",
+      priority = "extra-high",
+      width = 24,
+      height = 41,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-hand-closed-mk2.png",
+        priority = "extra-high",
+        width = 100,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_picture =
+    {
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/stack-filter-inserter-hand-open-mk2.png",
+      priority = "extra-high",
+      width = 32,
+      height = 41,
+      hr_version = {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-hand-open-mk2.png",
+        priority = "extra-high",
+        width = 130,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_base_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      priority = "extra-high",
+      width = 8,
+      height = 33,
+      hr_version = {
+        filename = "__base__/graphics/entity/burner-inserter/hr-burner-inserter-hand-base-shadow.png",
+        priority = "extra-high",
+        width = 32,
+        height = 132,
+        scale = 0.25
+      }
+    },
+    hand_closed_shadow =
+    {
+      filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-closed-shadow.png",
+      priority = "extra-high",
+      width = 24,
+      height = 41,
+      hr_version = {
+        filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-closed-shadow.png",
+        priority = "extra-high",
+        width = 100,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    hand_open_shadow =
+    {
+      filename = "__base__/graphics/entity/stack-inserter/stack-inserter-hand-open-shadow.png",
+      priority = "extra-high",
+      width = 32,
+      height = 41,
+      hr_version = {
+        filename = "__base__/graphics/entity/stack-inserter/hr-stack-inserter-hand-open-shadow.png",
+        priority = "extra-high",
+        width = 130,
+        height = 164,
+        scale = 0.25
+      }
+    },
+    platform_picture =
+    {
+      sheet =
+      {
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/stack-filter-inserter-platform-mk2.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+        shift = {0.09375, 0},
+        hr_version = {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-platform-mk2.png",
+          priority = "extra-high",
+          width = 105,
+          height = 79,
+          shift = util.by_pixel(1.5, 7.5-1),
+          scale = 0.5
+        }
+      }
+    },
+    circuit_wire_connection_points = circuit_connector_definitions["inserter"].points,
+    circuit_connector_sprites = circuit_connector_definitions["inserter"].sprites,
+    circuit_wire_max_distance = inserter_circuit_wire_max_distance,
+    default_stack_control_input_signal = inserter_default_stack_control_input_signal
+  },
 })

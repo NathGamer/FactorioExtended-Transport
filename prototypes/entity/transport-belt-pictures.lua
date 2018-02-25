@@ -1,13 +1,13 @@
 rapid_belt_mk1_horizontal =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
     frame_count = 32,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -18,7 +18,7 @@ rapid_belt_mk1_horizontal =
   }
 rapid_belt_mk1_vertical =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -26,7 +26,7 @@ rapid_belt_mk1_vertical =
     y = 40,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -38,7 +38,7 @@ rapid_belt_mk1_vertical =
   }
 rapid_belt_mk1_ending_top =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -46,7 +46,7 @@ rapid_belt_mk1_ending_top =
     y = 80,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -58,7 +58,7 @@ rapid_belt_mk1_ending_top =
   }
 rapid_belt_mk1_ending_bottom =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -66,7 +66,7 @@ rapid_belt_mk1_ending_bottom =
     y = 120,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -78,7 +78,7 @@ rapid_belt_mk1_ending_bottom =
   }
 rapid_belt_mk1_ending_side =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -86,7 +86,7 @@ rapid_belt_mk1_ending_side =
     y = 160,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -98,7 +98,7 @@ rapid_belt_mk1_ending_side =
   }
 rapid_belt_mk1_starting_top =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -106,7 +106,7 @@ rapid_belt_mk1_starting_top =
     y = 200,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -118,7 +118,7 @@ rapid_belt_mk1_starting_top =
   }
 rapid_belt_mk1_starting_bottom =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -126,7 +126,7 @@ rapid_belt_mk1_starting_bottom =
     y = 240,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -138,7 +138,7 @@ rapid_belt_mk1_starting_bottom =
   }
 rapid_belt_mk1_starting_side =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-mk1.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -146,7 +146,7 @@ rapid_belt_mk1_starting_side =
     y = 280,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -162,14 +162,14 @@ rapid_belt_mk1_starting_side =
   
   rapid_belt_mk2_horizontal =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
     frame_count = 32,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -180,7 +180,7 @@ rapid_belt_mk1_starting_side =
   }
 rapid_belt_mk2_vertical =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -188,7 +188,7 @@ rapid_belt_mk2_vertical =
     y = 40,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -200,7 +200,7 @@ rapid_belt_mk2_vertical =
   }
 rapid_belt_mk2_ending_top =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -208,7 +208,7 @@ rapid_belt_mk2_ending_top =
     y = 80,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -220,7 +220,7 @@ rapid_belt_mk2_ending_top =
   }
 rapid_belt_mk2_ending_bottom =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -228,7 +228,7 @@ rapid_belt_mk2_ending_bottom =
     y = 120,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -240,7 +240,7 @@ rapid_belt_mk2_ending_bottom =
   }
 rapid_belt_mk2_ending_side =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -248,7 +248,7 @@ rapid_belt_mk2_ending_side =
     y = 160,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -260,7 +260,7 @@ rapid_belt_mk2_ending_side =
   }
 rapid_belt_mk2_starting_top =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -268,7 +268,7 @@ rapid_belt_mk2_starting_top =
     y = 200,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -280,7 +280,7 @@ rapid_belt_mk2_starting_top =
   }
 rapid_belt_mk2_starting_bottom =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -288,7 +288,7 @@ rapid_belt_mk2_starting_bottom =
     y = 240,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,
@@ -300,7 +300,7 @@ rapid_belt_mk2_starting_bottom =
   }
 rapid_belt_mk2_starting_side =
   {
-    filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
+    filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-mk2.png",
     priority = "extra-high",
     width = 40,
     height = 40,
@@ -308,7 +308,7 @@ rapid_belt_mk2_starting_side =
     y = 280,
     hr_version =
     {
-      filename = "__FactorioExtended-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
+      filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
       priority = "extra-high",
       width = 80,
       height = 80,

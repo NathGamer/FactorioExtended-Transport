@@ -3,7 +3,7 @@ data:extend({
     --Cargo Wagon
     type = "cargo-wagon",
     name = "cargo-wagon-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/cargo-wagon-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     inventory_size = 60,
@@ -409,7 +409,7 @@ data:extend({
   {
     type = "cargo-wagon",
     name = "cargo-wagon-mk3",
-    icon = "__FactorioExtended-Transport__/graphics/icons/cargo-wagon-mk3.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/cargo-wagon-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     inventory_size = 100,
@@ -814,7 +814,7 @@ data:extend({
     type = "locomotive",
     name = "locomotive-mk2",
     icon_size = 32,
-    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/locomotive-mk2.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -1128,7 +1128,7 @@ data:extend({
     type = "locomotive",
     name = "locomotive-mk3",
     icon_size = 32,
-    icon = "__FactorioExtended-Transport__/graphics/icons/locomotive-mk3.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/locomotive-mk3.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "locomotive-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -1444,7 +1444,7 @@ data:extend({
   {
     type = "fluid-wagon",
     name = "fluid-wagon-mk2",
-    icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fluid-wagon-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk2"},
@@ -1509,10 +1509,10 @@ data:extend({
           allow_low_quality_rotation = true,
           filenames =
           {
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-1.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-2.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-3.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-4.png"
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-1.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-2.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-3.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/fluid-wagon-4.png"
           },
           line_length = 4,
           lines_per_file = 8,
@@ -1528,14 +1528,14 @@ data:extend({
             allow_low_quality_rotation = true,
             filenames =
             {
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-1.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-2.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-3.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-4.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-5.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-6.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-7.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-8.png"
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-1.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-2.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-3.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-4.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-5.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-6.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-7.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk2/hr-fluid-wagon-8.png"
             },
             line_length = 4,
             lines_per_file = 4,
@@ -1610,7 +1610,7 @@ data:extend({
   {
     type = "fluid-wagon",
     name = "fluid-wagon-mk3",
-    icon = "__FactorioExtended-Transport__/graphics/icons/fluid-wagon-mk3.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fluid-wagon-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "fluid-wagon-mk3"},
@@ -1675,10 +1675,10 @@ data:extend({
           allow_low_quality_rotation = true,
           filenames =
           {
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-1.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-2.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-3.png",
-            "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-4.png"
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-1.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-2.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-3.png",
+            "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/fluid-wagon-4.png"
           },
           line_length = 4,
           lines_per_file = 8,
@@ -1694,14 +1694,14 @@ data:extend({
             allow_low_quality_rotation = true,
             filenames =
             {
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-1.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-2.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-3.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-4.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-5.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-6.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-7.png",
-              "__FactorioExtended-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-8.png"
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-1.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-2.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-3.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-4.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-5.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-6.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-7.png",
+              "__FactorioExtended-Plus-Transport__/graphics/entity/fluid-wagon-mk3/hr-fluid-wagon-8.png"
             },
             line_length = 4,
             lines_per_file = 4,

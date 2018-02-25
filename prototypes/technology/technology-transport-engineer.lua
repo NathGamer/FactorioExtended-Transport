@@ -31,23 +31,99 @@ data:extend(
     },
     unit =
     {
-      count = 150,
+      count = 500,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+        {"production-science-pack", 1}
       },
       time = 30
     },
     
-    order = "f-b-a-a",
+    order = "a-f-d",
+  },
+  {
+    type = "technology",
+    name = "logistics-5",
+    icon = "__base__/graphics/technology/logistics.png",
+    icon_size = 128,
+    prerequisites = {"logistics-4", "speed-module-2", "advanced-electronics-2"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "fast-inserter-mk3"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "rapid-transport-belt-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "rapid-transport-belt-to-ground-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "rapid-splitter-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "filter-long-handed-inserter"
+      }
+    },
+    unit =
+    {
+      count = 800,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+        {"production-science-pack", 1}
+      },
+      time = 30
+    },
+    
+    order = "a-f-e",
+  },
+  {
+    type = "technology",
+    name = "stack-inserter-2",
+    icon = "__base__/graphics/technology/stack-inserter.png",
+    icon_size = 128,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "stack-inserter-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "stack-filter-inserter-mk2"
+      }
+    },
+    prerequisites = {"stack-inserter"},
+    unit =
+    {
+      count = 500,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
+      },
+      time = 30
+    },
+    order = "c-o-b",
   },
   {
     type = "technology",
     name = "railway-2",
     icon_size = 128,
     icon = "__base__/graphics/technology/railway.png",
-    prerequisites = {"automated-rail-transportation", "railway"},
+    prerequisites = {"automated-rail-transportation", "advanced-electronics"},
     effects =
     {
       {
@@ -76,14 +152,14 @@ data:extend(
       time = 30
     },
     
-    order = "f-b-b-a",
+    order = "c-g-b",
   },
   {
     type = "technology",
     name = "railway-3",
     icon_size = 128,
     icon = "__base__/graphics/technology/railway.png",
-    prerequisites = {"railway-2"},
+    prerequisites = {"railway-2", "advanced-electronics-2", "titanium-processing"},
     effects =
     {
       {
@@ -104,7 +180,7 @@ data:extend(
       count = 500,
       ingredients =
       {
-        {"science-pack-1", 2},
+        {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"production-science-pack", 1}
@@ -112,52 +188,9 @@ data:extend(
       time = 30
     },
     
-    order = "f-b-b-b",
+    order = "c-g-c",
   },
-  {
-    type = "technology",
-    name = "logistics-5",
-    icon = "__base__/graphics/technology/logistics.png",
-    icon_size = 128,
-    prerequisites = {"logistics-4"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "fast-inserter-mk3"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "rapid-transport-belt-mk2"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "rapid-transport-belt-to-ground-mk2"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "rapid-splitter-mk2"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "filter-long-handed-inserter"
-      }
-    },
-    unit =
-    {
-      count = 300,
-      ingredients =
-      {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1}
-      },
-      time = 30
-    },
-    
-    order = "f-b-a-b",
-  },
-  
-  
+
   {
     type = "technology",
     name = "fluid-handling-2",
@@ -177,12 +210,12 @@ data:extend(
     },
     unit =
     {
-      count = 75,
+      count = 200,
       ingredients = 
-    {
-    {"science-pack-1", 2}, 
-    {"science-pack-2", 1}
-    },
+      {
+        {"science-pack-1", 1}, 
+        {"science-pack-2", 1}
+      },
       time = 30
     },
     order = "d-a-b"
