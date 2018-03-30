@@ -77,20 +77,21 @@ data:extend(
   {
     type = "recipe",
     name = "pipe-mk2",
+    enabled = false,
     ingredients = 
     {
-      {"pipe", 1},
-      {"iron-plate", 5}
+      {"titanium-alloy", 1}
     },
     result = "pipe-mk2"
   },
   {
     type = "recipe",
     name = "pipe-to-ground-mk2",
+    enabled = false,
     ingredients =
     {
-      {"pipe-to-ground", 4},
-      {"iron-plate", 5}
+      {"pipe-mk2", 20},
+      {"titanium-alloy", 10}
     },
     result_count = 2,
     result = "pipe-to-ground-mk2"

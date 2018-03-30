@@ -5,7 +5,7 @@ data:extend(
     name = "logistics-4",
     icon = "__base__/graphics/technology/logistics.png",
     icon_size = 128,
-    prerequisites = {"automated-rail-transportation", "logistics-3"},
+    prerequisites = {"logistics-3", "titanium-processing"},
     effects =
     {
       {
@@ -37,7 +37,8 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"production-science-pack", 1}
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -81,7 +82,8 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"production-science-pack", 1}
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -104,15 +106,16 @@ data:extend(
         recipe = "stack-filter-inserter-mk2"
       }
     },
-    prerequisites = {"stack-inserter"},
+    prerequisites = {"stack-inserter", "titanium-processing", "speed-module"},
     unit =
     {
-      count = 500,
+      count = 200,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -123,7 +126,7 @@ data:extend(
     name = "railway-2",
     icon_size = 128,
     icon = "__base__/graphics/technology/railway.png",
-    prerequisites = {"automated-rail-transportation", "advanced-electronics"},
+    prerequisites = {"automated-rail-transportation", "advanced-electronics", "titanium-processing"},
     effects =
     {
       {
@@ -141,7 +144,7 @@ data:extend(
     },
     unit =
     {
-      count = 400,
+      count = 200,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -159,7 +162,7 @@ data:extend(
     name = "railway-3",
     icon_size = 128,
     icon = "__base__/graphics/technology/railway.png",
-    prerequisites = {"railway-2", "advanced-electronics-2", "titanium-processing"},
+    prerequisites = {"railway-2", "advanced-electronics-2"},
     effects =
     {
       {
@@ -177,20 +180,20 @@ data:extend(
     },
     unit =
     {
-      count = 500,
+      count = 200,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"production-science-pack", 1}
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
     
     order = "c-g-c",
   },
-
   {
     type = "technology",
     name = "fluid-handling-2",
@@ -206,6 +209,14 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "pump-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "pipe-mk2"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "pipe-to-ground-mk2"
       }
     },
     unit =
@@ -214,7 +225,8 @@ data:extend(
       ingredients = 
       {
         {"science-pack-1", 1}, 
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
       time = 30
     },
