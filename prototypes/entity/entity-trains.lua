@@ -939,10 +939,10 @@ data:extend({
           tint = {r=0.4, g=0.804, b=0.667, a=0.8},
           filenames =
           {
+            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-01.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-02.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-03.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-04.png",
-            "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-01.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-05.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-06.png",
             "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-07.png",
