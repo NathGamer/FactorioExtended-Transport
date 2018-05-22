@@ -788,7 +788,6 @@ data:extend({
       priority = "extra-high-no-scale",
       width = 64,
       height = 64,
-      x = 64,
       scale = 0.5
     },
     underground_remove_belts_sprite =
@@ -797,7 +796,6 @@ data:extend({
       priority = "high",
       width = 64,
       height = 64,
-      x = 64,
       scale = 0.5
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
