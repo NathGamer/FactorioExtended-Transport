@@ -720,7 +720,7 @@ data:extend({
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box =
     {
-      base_area = 2,
+      base_area = 1,
       pipe_connections =
       {
         { position = {0, -1} },
@@ -771,7 +771,7 @@ data:extend({
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box =
     {
-      base_area = 2,
+      base_area = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -2028,7 +2028,7 @@ data:extend({
     {
       hardness = 0.2,
       mining_time = 0.5,
-      result = "stack-filter-inserter"
+      result = "stack-filter-inserter-mk2"
     },
     max_health = 160,
     corpse = "small-remnants",
