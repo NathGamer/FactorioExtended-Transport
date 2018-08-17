@@ -75,7 +75,7 @@ data:extend({
     subgroup = "fb-fluids",
     order = "a-a",
     place_result = "pipe-mk2",
-    stack_size = 50
+    stack_size = 100
   },
   {
     type = "item",
