@@ -1,6 +1,6 @@
 {
   "name": "FactorioExtended-Plus-Transport",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "factorio_version": "0.17",
   "date": "2019-02-28",
   "title": "FactorioExtended Plus-Transport",
@@ -8,5 +8,5 @@
   "contributers": "Cinjun",
   "homepage": "",
   "description": "",
-  "dependencies": ["base >= 0.17.00", "FactorioExtended-Plus-Core >= 0.1.5"]
+  "dependencies": ["base >= 0.17.00", "FactorioExtended-Plus-Core >= 0.2.0"]
 }
