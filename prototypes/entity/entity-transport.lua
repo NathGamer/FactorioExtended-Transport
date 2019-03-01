@@ -32,8 +32,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 5000,
-    energy_per_rotation = 5000,
+    energy_per_movement = "5KJ",
+    energy_per_rotation = "5KJ",
     energy_source =
     {
       type = "electric",
@@ -204,8 +204,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 5000,
-    energy_per_rotation = 5000,
+    energy_per_movement = "5KJ",
+    energy_per_rotation = "5KJ",
     energy_source =
     {
       type = "electric",
@@ -371,8 +371,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
-    energy_per_movement = 5500,
-    energy_per_rotation = 5500,
+    energy_per_movement = "5.5KJ",
+    energy_per_rotation = "5.5KJ",
     rotation_speed = 0.12,
     extension_speed = 0.10,
     fast_replaceable_group = "long-handed-inserter",
@@ -568,8 +568,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
-    energy_per_movement = 7000,
-    energy_per_rotation = 7000,
+    energy_per_movement = "7KJ",
+    energy_per_rotation = "7KJ",
     energy_source =
     {
       type = "electric",
@@ -1868,8 +1868,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 25000,
-    energy_per_rotation = 25000,
+    energy_per_movement = "25KJ",
+    energy_per_rotation = "25KJ",
     energy_source =
     {
       type = "electric",
@@ -2043,8 +2043,8 @@ data:extend({
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 25000,
-    energy_per_rotation = 25000,
+    energy_per_movement = "25KJ",
+    energy_per_rotation = "25KJ",
     energy_source =
     {
       type = "electric",
