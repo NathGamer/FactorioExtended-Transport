@@ -1,11 +1,4 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.3.5
-Date: 02.10.2018
-  Bugfixes:
-    - Fixing SD images
-  Features:
-    - Remove locomotive image from folder and tinted base game locomotive. Doing this reduces mod size
----------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 25.02.2018
   Features:
@@ -42,3 +35,8 @@ Date: 08. 15. 2018
   Bugfixes:
     - Fixed max speed on fluid wagons and cargo wagons
     - Fixed MK2 Pipe stack size
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
