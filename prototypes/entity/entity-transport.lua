@@ -1425,7 +1425,7 @@ data:extend({
   {
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk1",
-    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-underground-belt-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk1"},
@@ -1588,7 +1588,7 @@ data:extend({
   {
     type = "underground-belt",
     name = "rapid-transport-belt-to-ground-mk2",
-    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
+    icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-underground-belt-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk2"},
