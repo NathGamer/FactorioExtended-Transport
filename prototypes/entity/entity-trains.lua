@@ -7,7 +7,7 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
     inventory_size = 60,
-    minable = {mining_time = 1, result = "cargo-wagon-mk2"},
+    minable = {mining_time = 0.7, result = "cargo-wagon-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1200,
     corpse = "medium-remnants",
@@ -387,6 +387,20 @@ data:extend({
         }
       }
     },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
     wheels = standard_train_wheels,
     rail_category = "regular",
     drive_over_tie_trigger = drive_over_tie(),
@@ -398,7 +412,7 @@ data:extend({
         filename = "__base__/sound/train-wheels.ogg",
         volume = 0.6
       },
-      match_volume_to_activity = true,
+      match_volume_to_activity = true
     },
     crash_trigger = crash_trigger(),
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -413,7 +427,7 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
     inventory_size = 100,
-    minable = {mining_time = 1, result = "cargo-wagon-mk3"},
+    minable = {mining_time = 0.7, result = "cargo-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1800,
     corpse = "medium-remnants",
@@ -789,6 +803,20 @@ data:extend({
         }
       }
     },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
     wheels = standard_train_wheels,
     rail_category = "regular",
     drive_over_tie_trigger = drive_over_tie(),
@@ -816,7 +844,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/locomotive-mk2.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "locomotive-mk2"},
+    minable = {mining_time = 0.7, result = "locomotive-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 2000,
     corpse = "medium-remnants",
@@ -1068,6 +1096,20 @@ data:extend({
         }
       }
     },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
     wheels = standard_train_wheels,
     rail_category = "regular",
     stop_trigger =
@@ -1130,7 +1172,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/locomotive-mk3.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "locomotive-mk3"},
+    minable = {mining_time = 0.7, result = "locomotive-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 3000,
     corpse = "medium-remnants",
@@ -1382,6 +1424,20 @@ data:extend({
         }
       }
     },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
     wheels = standard_train_wheels,
     rail_category = "regular",
     stop_trigger =
@@ -1447,7 +1503,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fluid-wagon-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "fluid-wagon-mk2"},
+    minable = {mining_time = 0.7, result = "fluid-wagon-mk2"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1200,
     capacity = 75000,
@@ -1546,6 +1602,7 @@ data:extend({
         {
           flags = { "shadow" },
           priority = "very-low",
+          slice = 4,
           width = 251,
           height = 188,
           back_equals_front = true,
@@ -1566,6 +1623,7 @@ data:extend({
           {
             flags = { "shadow" },
             priority = "very-low",
+            slice = 4,
             width = 501,
             height = 375,
             back_equals_front = true,
@@ -1590,6 +1648,20 @@ data:extend({
         }
       }
     },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
     wheels = standard_train_wheels,
     rail_category = "regular",
     drive_over_tie_trigger = drive_over_tie(),
@@ -1613,7 +1685,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fluid-wagon-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "fluid-wagon-mk3"},
+    minable = {mining_time = 0.7, result = "fluid-wagon-mk3"},
     mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1800,
     capacity = 175000,
@@ -1712,6 +1784,7 @@ data:extend({
         {
           flags = { "shadow" },
           priority = "very-low",
+          slice = 4,
           width = 251,
           height = 188,
           back_equals_front = true,
@@ -1732,6 +1805,7 @@ data:extend({
           {
             flags = { "shadow" },
             priority = "very-low",
+            slice = 4,
             width = 501,
             height = 375,
             back_equals_front = true,
@@ -1755,6 +1829,20 @@ data:extend({
           }
         }
       }
+    },
+    minimap_representation =
+    {
+      filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
+    },
+    selected_minimap_representation =
+    {
+      filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-selected-minimap-representation.png",
+      flags = {"icon"},
+      size = {20, 40},
+      scale = 0.5
     },
     wheels = standard_train_wheels,
     rail_category = "regular",
