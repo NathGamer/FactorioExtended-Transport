@@ -15,7 +15,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-inserter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = { mining_time = 0.3, result = "fast-inserter-mk2" },
+    minable = { mining_time = 0.1, result = "fast-inserter-mk2" },
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -189,7 +189,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-inserter-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = { mining_time = 0.3, result = "fast-inserter-mk3" },
+    minable = { mining_time = 0.1, result = "fast-inserter-mk3" },
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -363,7 +363,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-long-handed-inserter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.3, result = "fast-long-handed-inserter"},
+    minable = {mining_time = 0.1, result = "fast-long-handed-inserter"},
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -539,7 +539,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/smart-long-handed-inserter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.3, result = "filter-long-handed-inserter"},
+    minable = {mining_time = 0.1, result = "filter-long-handed-inserter"},
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -721,7 +721,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pipe-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = { mining_time = 0.5, result = "pipe-mk2"},
+    minable = { mining_time = 0.1, result = "pipe-mk2"},
     max_health = 200,
     corpse = "small-remnants",
     resistances =
@@ -772,7 +772,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pipe-to-ground-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = { mining_time = 0.3, result = "pipe-to-ground-mk2"},
+    minable = { mining_time = 0.1, result = "pipe-to-ground-mk2"},
     max_health = 200,
     corpse = "small-remnants",
     resistances =
@@ -892,7 +892,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/storage-tank-mk2.png",
     icon_size = 32,
     flags = { "placeable-player", "player-creation"},
-    minable = { mining_time = 0.7, result = "storage-tank-mk2"},
+    minable = { mining_time = 0.5, result = "storage-tank-mk2"},
     max_health = 2000,
     corpse = "medium-remnants",
     fast_replaceable_group = "storage-tank",
@@ -1034,7 +1034,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/pump-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "pump-mk2"},
+    minable = {mining_time = 0.2, result = "pump-mk2"},
     max_health = 360,
     fast_replaceable_group = "pipe",
     corpse = "small-remnants",
@@ -1316,7 +1316,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-transport-belt-mk1"},
+    minable = {mining_time = 0.1, result = "rapid-transport-belt-mk1"},
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -1371,7 +1371,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-transport-belt-mk2"},
+    minable = {mining_time = 0.1, result = "rapid-transport-belt-mk2"},
     max_health = 190,
     corpse = "small-remnants",
     resistances =
@@ -1428,7 +1428,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-underground-belt-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk1"},
+    minable = {mining_time = 0.1, result = "rapid-transport-belt-to-ground-mk1"},
     max_health = 180,
     max_distance = 11,
     corpse = "small-remnants",
@@ -1591,7 +1591,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-underground-belt-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk2"},
+    minable = {mining_time = 0.31, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 190,
     max_distance = 22,
     corpse = "small-remnants",
@@ -1752,7 +1752,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-splitter-mk1"},
+    minable = {mining_time = 0.1, result = "rapid-splitter-mk1"},
     max_health = 200,
     corpse = "medium-remnants",
     resistances =
@@ -1864,7 +1864,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "rapid-splitter-mk2"},
+    minable = {mining_time = 0.1, result = "rapid-splitter-mk2"},
     max_health = 210,
     corpse = "medium-remnants",
     resistances =
@@ -1977,12 +1977,7 @@ data:extend({
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     stack = true,
-    minable =
-    {
-      hardness = 0.2,
-      mining_time = 0.5,
-      result = "stack-inserter-mk2"
-    },
+    minable = { mining_time = 0.1, result = "stack-inserter-mk2" },
     max_health = 160,
     corpse = "small-remnants",
     resistances =
@@ -2152,7 +2147,7 @@ data:extend({
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     stack = true,
     filter_count = 1,
-    minable = { mining_time = 0.3, result = "stack-filter-inserter-mk2" },
+    minable = { mining_time = 0.1, result = "stack-filter-inserter-mk2" },
     max_health = 160,
     corpse = "small-remnants",
     resistances =
