@@ -1,6 +1,8 @@
 require ("circuit-connector-generated-definitions")
 require ("prototypes.entity.transport-belt-pictures")
 require("prototypes.entity.pipe-pictures")
+require("prototypes.entity.transport-belt-pictures")
+
 
 data.raw["storage-tank"]["storage-tank"].fast_replaceable_group="storage-tank"
 data.raw["inserter"]["long-handed-inserter"].fast_replaceable_group="inserter"
@@ -13,12 +15,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/fast-inserter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable =
-    {
-      hardness = 0.2,
-      mining_time = 0.5,
-      result = "fast-inserter-mk2"
-    },
+    minable = { mining_time = 0.3, result = "fast-inserter-mk2" },
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -76,8 +73,9 @@ data:extend({
       filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/fast-inserter-mk2-hand-base.png",
       priority = "extra-high",
       width = 8,
-      height = 34,
-      hr_version = {
+      height = 33,
+      hr_version = 
+      {
         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-base.png",
         priority = "extra-high",
         width = 32,
@@ -91,7 +89,8 @@ data:extend({
       priority = "extra-high",
       width = 18,
       height = 41,
-      hr_version = {
+      hr_version =
+      {
         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk2/hr-fast-inserter-mk2-hand-closed.png",
         priority = "extra-high",
         width = 72,
@@ -248,7 +247,7 @@ data:extend({
       filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/fast-inserter-mk3-hand-base.png",
       priority = "extra-high",
       width = 8,
-      height = 34,
+      height = 33,
       hr_version = {
         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/fast-inserter-mk3/hr-fast-inserter-mk3-hand-base.png",
         priority = "extra-high",
@@ -1280,7 +1279,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk1"},
+    minable = {mining_time = 0.3, result = "rapid-transport-belt-mk1"},
     max_health = 180,
     corpse = "small-remnants",
     resistances =
@@ -1314,28 +1313,19 @@ data:extend({
       {
         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-mk1.png",
         priority = "extra-high",
-        width = 80,
-        height = 80,
+        width = 128,
+        height = 128,
         frame_count = 32,
-        line_length = 16,
         direction_count = 12,
         scale = 0.5
       }
     },
-    belt_horizontal = rapid_belt_mk1_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk1_vertical,
-    ending_top = rapid_belt_mk1_ending_top,
-    ending_bottom = rapid_belt_mk1_ending_bottom,
-    ending_side = rapid_belt_mk1_ending_side,
-    starting_top = rapid_belt_mk1_starting_top,
-    starting_bottom = rapid_belt_mk1_starting_bottom,
-    starting_side = rapid_belt_mk1_starting_side,
-    ending_patch = ending_patch_prototype,
+    belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.125,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
-    circuit_connector_sprites = transport_belt_circuit_connector_sprites,
-    circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
+    circuit_wire_connection_point = circuit_connector_definitions["belt"].points,
+    circuit_connector_sprites = circuit_connector_definitions["belt"].sprites,
     circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
   },
   {
@@ -1344,7 +1334,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "rapid-transport-belt-mk2"},
+    minable = {mining_time = 0.3, result = "rapid-transport-belt-mk2"},
     max_health = 190,
     corpse = "small-remnants",
     resistances =
@@ -1378,28 +1368,19 @@ data:extend({
       {
         filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-mk2.png",
         priority = "extra-high",
-        width = 80,
-        height = 80,
+        width = 128,
+        height = 128,
         frame_count = 32,
-        line_length = 16,
         direction_count = 12,
         scale = 0.5
       }
     },
-    belt_horizontal = rapid_belt_mk2_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk2_vertical,
-    ending_top = rapid_belt_mk2_ending_top,
-    ending_bottom = rapid_belt_mk2_ending_bottom,
-    ending_side = rapid_belt_mk2_ending_side,
-    starting_top = rapid_belt_mk2_starting_top,
-    starting_bottom = rapid_belt_mk2_starting_bottom,
-    starting_side = rapid_belt_mk2_starting_side,
-    ending_patch = ending_patch_prototype,
+    belt_animation_set = rapid_mk2_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.15625,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
-    circuit_connector_sprites = transport_belt_circuit_connector_sprites,
-    circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
+    circuit_wire_connection_point = circuit_connector_definitions["belt"].points,
+    circuit_connector_sprites = circuit_connector_definitions["belt"].sprites,
     circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
   },
   
@@ -1410,7 +1391,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk1"},
+    minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk1"},
     max_health = 180,
     max_distance = 11,
     corpse = "small-remnants",
@@ -1446,14 +1427,7 @@ data:extend({
     collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     animation_speed_coefficient = 32,
-    belt_horizontal = rapid_belt_mk1_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk1_vertical,
-    ending_top = rapid_belt_mk1_ending_top,
-    ending_bottom = rapid_belt_mk1_ending_bottom,
-    ending_side = rapid_belt_mk1_ending_side,
-    starting_top = rapid_belt_mk1_starting_top,
-    starting_bottom = rapid_belt_mk1_starting_bottom,
-    starting_side = rapid_belt_mk1_starting_side,
+    belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.125,
     structure =
@@ -1462,20 +1436,18 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-underground-belt-structure-mk1.png",
           priority = "extra-high",
-          shift = {0.26, 0},
-          width = 57,
-          height = 43,
-          y = 43,
+          width = 96,
+          height = 96,
+          y = 96,
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-underground-belt-structure-mk1.png",
             priority = "extra-high",
-            shift = {0.15625, 0.0703125},
-            width = 106,
-            height = 85,
-            y = 85,
+            width = 192,
+            height = 192,
+            y = 192,
             scale = 0.5
           }
         }
@@ -1484,25 +1456,97 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-transport-belt-to-ground-mk1-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-underground-belt-structure-mk1.png",
           priority = "extra-high",
-          shift = {0.26, 0},
-          width = 57,
-          height = 43,
+          width = 96,
+          height = 96,
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-transport-belt-to-ground-mk1-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-underground-belt-structure-mk1.png",
             priority = "extra-high",
-            shift = {0.15625, 0.0703125},
-            width = 106,
-            height = 85,
+            width = 192,
+            height =192,
             scale = 0.5
           }
-
+        }
+      },
+      direction_in_side_loading =
+      {
+        sheet =
+        {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-underground-belt-structure-mk1.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          y = 96*3,
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-underground-belt-structure-mk1.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            y = 192*3,
+            scale = 0.5
+          }
+        }
+      },
+      direction_out_side_loading =
+      {
+        sheet =
+        {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-underground-belt-structure-mk1.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          y = 96*2,
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-underground-belt-structure-mk1.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            y = 192*2,
+            scale = 0.5
+          }
+        }
+      },
+      back_patch =
+      {
+        sheet =
+        {
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure-back-patch.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure-back-patch.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            scale = 0.5
+          }
+        }
+      },
+      front_patch =
+      {
+        sheet =
+        {
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure-front-patch.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure-front-patch.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            scale = 0.5
+          }
         }
       }
-    },
-    ending_patch = ending_patch_prototype
+    }
   },
   {
     type = "underground-belt",
@@ -1510,7 +1554,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-transport-belt-to-ground-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-transport-belt-to-ground-mk2"},
+    minable = {mining_time = 0.3, result = "rapid-transport-belt-to-ground-mk2"},
     max_health = 190,
     max_distance = 22,
     corpse = "small-remnants",
@@ -1542,14 +1586,7 @@ data:extend({
     collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     animation_speed_coefficient = 32,
-    belt_horizontal = rapid_belt_mk2_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk2_vertical,
-    ending_top = rapid_belt_mk2_ending_top,
-    ending_bottom = rapid_belt_mk2_ending_bottom,
-    ending_side = rapid_belt_mk2_ending_side,
-    starting_top = rapid_belt_mk2_starting_top,
-    starting_bottom = rapid_belt_mk2_starting_bottom,
-    starting_side = rapid_belt_mk2_starting_side,
+    belt_animation_set = rapid_mk2_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.15625,
     structure =
@@ -1558,20 +1595,18 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-underground-belt-structure-mk2.png",
           priority = "extra-high",
-          shift = {0.25, 0},
-          width = 57,
-          height = 43,
-          y = 43,
+          width = 96,
+          height = 96,
+          y = 96,
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-underground-belt-structure-mk2.png",
             priority = "extra-high",
-            shift = {0.15625, 0.0703125},
-            width = 106,
-            height = 85,
-            y = 85,
+            width = 192,
+            height = 192,
+            y = 192,
             scale = 0.5
           }
         }
@@ -1580,25 +1615,97 @@ data:extend({
       {
         sheet =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-transport-belt-to-ground-mk2-structure.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-underground-belt-structure-mk2.png",
           priority = "extra-high",
-          shift = {0.25, 0},
-          width = 57,
-          height = 43,
+          width = 96,
+          height = 96,
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-transport-belt-to-ground-mk2-structure.png",
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-underground-belt-structure-mk2.png",
             priority = "extra-high",
-            shift = {0.15625, 0.0703125},
-            width = 106,
-            height = 85,
+            width = 192,
+            height =192,
             scale = 0.5
           }
-
+        }
+      },
+      direction_in_side_loading =
+      {
+        sheet =
+        {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-underground-belt-structure-mk2.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          y = 96*3,
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-underground-belt-structure-mk2.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            y = 192*3,
+            scale = 0.5
+          }
+        }
+      },
+      direction_out_side_loading =
+      {
+        sheet =
+        {
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-underground-belt-structure-mk2.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          y = 96*2,
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-underground-belt-structure-mk2.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            y = 192*2,
+            scale = 0.5
+          }
+        }
+      },
+      back_patch =
+      {
+        sheet =
+        {
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure-back-patch.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure-back-patch.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            scale = 0.5
+          }
+        }
+      },
+      front_patch =
+      {
+        sheet =
+        {
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure-front-patch.png",
+          priority = "extra-high",
+          width = 96,
+          height = 96,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure-front-patch.png",
+            priority = "extra-high",
+            width = 192,
+            height = 192,
+            scale = 0.5
+          }
         }
       }
-    },
-    ending_patch = ending_patch_prototype
+    }
   },
   
   --Splitters
@@ -1608,7 +1715,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk1.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk1"},
+    minable = {mining_time = 0.3, result = "rapid-splitter-mk1"},
     max_health = 200,
     corpse = "medium-remnants",
     resistances =
@@ -1623,104 +1730,96 @@ data:extend({
     animation_speed_coefficient = 32,
     structure_animation_speed_coefficient = 0.7,
     structure_animation_movement_cooldown = 10,
-    belt_horizontal = rapid_belt_mk1_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk1_vertical,
-    ending_top = rapid_belt_mk1_ending_top,
-    ending_bottom = rapid_belt_mk1_ending_bottom,
-    ending_side = rapid_belt_mk1_ending_side,
-    starting_top = rapid_belt_mk1_starting_top,
-    starting_bottom = rapid_belt_mk1_starting_bottom,
-    starting_side = rapid_belt_mk1_starting_side,
-    ending_patch = ending_patch_prototype,
+    belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.125,
     structure =
     {
       north =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-north.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-north-mk1.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 83,
+        width = 82,
         height = 36,
-        shift = {0.265625, 0},
+        shift = util.by_pixel(6, 0),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-north-mk1.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 164,
+          width = 160,
           height = 70,
-          shift = {0.25, 0.046875},
+          shift = util.by_pixel(7, 0),
           scale = 0.5
         }
       },
       east =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-east.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-east-mk1.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 51,
+        width = 46,
         height = 80,
-        shift = {0.109375, -0.03125},
+        shift = util.by_pixel(4, -6),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-east-mk1.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 93,
-          height = 157,
-          shift = {0.148438, -0.179688},
+          width = 90,
+          height = 160,
+          shift = util.by_pixel(4, -6),
           scale = 0.5
         }
       },
       south =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-south.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-south-mk1.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 85,
-        height = 35,
-        shift = {0.140625, -0.015625},
+        width = 82,
+        height = 32,
+        shift = util.by_pixel(4, 0),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-south-mk1.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 168,
-          height = 67,
-          shift = {0.140625, 0.0234375},
+          width = 164,
+          height = 64,
+          shift = util.by_pixel(4, 0),
           scale = 0.5
         }
       },
       west =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-mk1-west.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/rapid-splitter-west-mk1.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 51,
-        height = 78,
-        shift = {0.296875, -0.03125},
+        width = 46,
+        height = 76,
+        shift = util.by_pixel(6, -4),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-mk1-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk1/hr-rapid-splitter-west-mk1.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
           width = 94,
-          height = 154,
-          shift = {0.203125, -0.109375},
+          height = 150,
+          shift = util.by_pixel(5, -4),
           scale = 0.5
         }
-      },
-    },
+      }
+    }
   },
   {
     type = "splitter",
@@ -1728,7 +1827,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Transport__/graphics/icons/rapid-splitter-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "rapid-splitter-mk2"},
+    minable = {mining_time = 0.3, result = "rapid-splitter-mk2"},
     max_health = 210,
     corpse = "medium-remnants",
     resistances =
@@ -1743,104 +1842,96 @@ data:extend({
     animation_speed_coefficient = 32,
     structure_animation_speed_coefficient = 0.7,
     structure_animation_movement_cooldown = 10,
-    belt_horizontal = rapid_belt_mk2_horizontal, -- specified in transport-belt-pictures.lua
-    belt_vertical = rapid_belt_mk2_vertical,
-    ending_top = rapid_belt_mk2_ending_top,
-    ending_bottom = rapid_belt_mk2_ending_bottom,
-    ending_side = rapid_belt_mk2_ending_side,
-    starting_top = rapid_belt_mk2_starting_top,
-    starting_bottom = rapid_belt_mk2_starting_bottom,
-    starting_side = rapid_belt_mk2_starting_side,
-    ending_patch = ending_patch_prototype,
+    belt_animation_set = rapid_mk2_belt_animation_set,
     fast_replaceable_group = "transport-belt",
     speed = 0.15625,
     structure =
     {
       north =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-north.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-north-mk2.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 83,
+        width = 82,
         height = 36,
-        shift = {0.265625, 0},
+        shift = util.by_pixel(6, 0),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-north.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-north-mk2.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 164,
+          width = 160,
           height = 70,
-          shift = {0.25, 0.046875},
+          shift = util.by_pixel(7, 0),
           scale = 0.5
         }
       },
       east =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-east.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-east-mk2.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 51,
+        width = 46,
         height = 80,
-        shift = {0.109375, -0.03125},
+        shift = util.by_pixel(4, -6),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-east.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-east-mk2.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 93,
-          height = 157,
-          shift = {0.148438, -0.179688},
+          width = 90,
+          height = 160,
+          shift = util.by_pixel(4, -6),
           scale = 0.5
         }
       },
       south =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-south.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-south-mk2.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 85,
-        height = 35,
-        shift = {0.140625, -0.015625},
+        width = 82,
+        height = 32,
+        shift = util.by_pixel(4, 0),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-south.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-south-mk2.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
-          width = 168,
-          height = 67,
-          shift = {0.140625, 0.0234375},
+          width = 164,
+          height = 64,
+          shift = util.by_pixel(4, 0),
           scale = 0.5
         }
       },
       west =
       {
-        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-mk2-west.png",
+        filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/rapid-splitter-west-mk2.png",
         frame_count = 32,
-        line_length = 16,
+        line_length = 8,
         priority = "extra-high",
-        width = 51,
-        height = 78,
-        shift = {0.296875, -0.03125},
+        width = 46,
+        height = 76,
+        shift = util.by_pixel(6, -4),
         hr_version =
         {
-          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-mk2-west.png",
+          filename = "__FactorioExtended-Plus-Transport__/graphics/entity/rapid-transport-mk2/hr-rapid-splitter-west-mk2.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
           width = 94,
-          height = 154,
-          shift = {0.203125, -0.109375},
+          height = 150,
+          shift = util.by_pixel(5, -4),
           scale = 0.5
         }
-      },
-    },
+      }
+    }
   },
     {
     type = "inserter",
