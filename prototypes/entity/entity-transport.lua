@@ -40,6 +40,7 @@ data:extend({
     extension_speed = 0.09,
     rotation_speed = 0.07,
     fast_replaceable_group = "inserter",
+	next_upgrade = "fast-inserter-mk3",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
@@ -1359,6 +1360,7 @@ data:extend({
     },
     belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
+	next_upgrade = "rapid-transport-belt-mk2",
     speed = 0.125,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
     circuit_wire_connection_point = circuit_connector_definitions["belt"].points,
@@ -1466,6 +1468,7 @@ data:extend({
     animation_speed_coefficient = 32,
     belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
+	next_upgrade = "rapid-transport-belt-to-ground-mk2",
     speed = 0.125,
     structure =
     {
@@ -1769,6 +1772,7 @@ data:extend({
     structure_animation_movement_cooldown = 10,
     belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
+	next_upgrade = "rapid-splitter-mk2",
     speed = 0.125,
     structure =
     {
