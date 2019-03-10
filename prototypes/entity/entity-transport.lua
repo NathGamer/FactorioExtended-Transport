@@ -5,7 +5,7 @@ require("prototypes.entity.transport-belt-pictures")
 
 
 data.raw["storage-tank"]["storage-tank"].fast_replaceable_group="storage-tank"
-data.raw["inserter"]["long-handed-inserter"].fast_replaceable_group="inserter"
+--data.raw["inserter"]["long-handed-inserter"].fast_replaceable_group="inserter"
 
 data:extend({
   --Inserters

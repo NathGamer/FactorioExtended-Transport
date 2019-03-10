@@ -46,3 +46,9 @@ Date: 03. 03. 2019
   Changes :
     - Updating graphics and properties
     - Fixes crashing due to graphics being old
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 03. 10. 2019
+  Changes :
+    - Updated upgrade path for extended items
+    - Removed fast replace property from long-handed inserters
