@@ -52,3 +52,10 @@ Date: 03. 10. 2019
   Changes :
     - Updated upgrade path for extended items
     - Removed fast replace property from long-handed inserters
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 03. 15. 2019
+  Changes :
+    - Added a check to see if users had bobslogistics mod enabled, if found then fast replacement group
+      for MK2 undergrounds is changed to pipe-to-ground to play nicely with bobslogistics mod and still
+      be able to upgrade from standard underground pipe to mk2 underground pipe.

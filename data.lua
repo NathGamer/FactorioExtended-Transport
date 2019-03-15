@@ -6,7 +6,11 @@ require("prototypes.entity.entity-trains")
 require("prototypes.entity.entity-transport")
 require("prototypes.technology.technology-transport-engineer")
 
-data.raw["pipe-to-ground"]["pipe-to-ground"].fast_replaceable_group = "pipe"
+-- Changing Fast Replaceable Group form MK2 underground pipes if bobslogistics mod is being used
+if mods["boblogistics"] then
+  data.raw["pipe-to-ground"]["pipe-to-ground-mk2"].fast_replaceable_group = "pipe-to-ground"
+end
+
 data.raw["pipe"]["pipe"].next_upgrade = "pipe-mk2"
 data.raw["pipe-to-ground"]["pipe-to-ground"].next_upgrade = "pipe-to-ground-mk2"
 data.raw["inserter"]["fast-inserter"].next_upgrade = "fast-inserter-mk2"
