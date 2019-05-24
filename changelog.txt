@@ -67,3 +67,9 @@ Date: 03. 17. 2019
       if other mods change base fast_replacable_group it should now update FE entities with the same group.
     - Added upgrade route for long-handed-inserters to fast-long-handed-inserters
     - Added upgrade route for fast-inserters to fast-inserter-mk2
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 05. 22. 2019
+  Changes :
+    - Changed Technology Fluid-Handling-2 name to FactorioExtended Fluid Handling so that this does not conflict with other mods
+      if they have added fluid-handling-2 technology
