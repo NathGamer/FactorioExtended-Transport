@@ -196,7 +196,7 @@ data:extend(
   },
   {
     type = "technology",
-    name = "fluid-handling-2",
+    name = "factorio-extended-fluid-handling",
     icon = "__base__/graphics/technology/fluid-handling.png",
     icon_size = 128,
     prerequisites = {"fluid-handling", "titanium-processing"},
