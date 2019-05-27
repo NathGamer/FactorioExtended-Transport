@@ -73,3 +73,8 @@ Date: 05. 22. 2019
   Changes :
     - Changed Technology Fluid-Handling-2 name to FactorioExtended Fluid Handling so that this does not conflict with other mods
       if they have added fluid-handling-2 technology
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 05. 27. 2019
+  Changes :
+    - Fixing migration old file for fluid-handling-2
