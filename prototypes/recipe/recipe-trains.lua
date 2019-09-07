@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe",
-    energy_required = 0.5,
+    energy_required = 1,
     name = "cargo-wagon-mk2",
     enabled = false,
     ingredients =
@@ -16,7 +16,7 @@ data:extend(
   },
   {
     type = "recipe",
-    energy_required = 0.5,
+    energy_required = 1,
     name = "cargo-wagon-mk3",
     enabled = false,
     ingredients =
@@ -31,6 +31,7 @@ data:extend(
   {
     type = "recipe",
     name = "locomotive-mk2",
+    energy_required = 4,
     enabled = false,
     ingredients =
     {
@@ -44,6 +45,7 @@ data:extend(
   {
     type = "recipe",
     name = "locomotive-mk3",
+    energy_required = 4,
     enabled = false,
     ingredients =
     {

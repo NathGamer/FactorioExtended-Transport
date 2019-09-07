@@ -1039,7 +1039,7 @@ data:extend({
     max_health = 360,
     fast_replaceable_group = "pipe",
     corpse = "small-remnants",
-    collision_box = {{-0.29, -0.79}, {0.29, 0.79}},
+    collision_box = {{-0.29, -0.9}, {0.29, 0.9}},
     selection_box = {{-0.5, -1}, {0.5, 1}},
     resistances =
     {
@@ -1360,7 +1360,7 @@ data:extend({
     },
     belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
-	next_upgrade = "rapid-transport-belt-mk2",
+    next_upgrade = "rapid-transport-belt-mk2",
     speed = 0.125,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
     circuit_wire_connection_point = circuit_connector_definitions["belt"].points,
@@ -1468,7 +1468,7 @@ data:extend({
     animation_speed_coefficient = 32,
     belt_animation_set = rapid_mk1_belt_animation_set,
     fast_replaceable_group = "transport-belt",
-	next_upgrade = "rapid-transport-belt-to-ground-mk2",
+    next_upgrade = "rapid-transport-belt-to-ground-mk2",
     speed = 0.125,
     structure =
     {

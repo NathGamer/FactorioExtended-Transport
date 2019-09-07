@@ -78,3 +78,11 @@ Version: 0.2.6
 Date: 05. 27. 2019
   Changes :
     - Fixing migration old file for fluid-handling-2
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 09. 07. 2019
+  Changes :
+    - Changing bounding box on pump-mk2 to match vanilla
+    - Updating energy required for trains
+    - Moving vanilla next_upgrade assignments to data-updates so that other mods that copy vanilla items
+      don't copy the modified versions
