@@ -1,3 +1,6 @@
+local green_tint = {r=0.4, g=0.804, b=0.667, a=0.8}
+local blue_tint = {r=0.690, g=0.75, b=1, a=0.8}
+
 data:extend(
 {
   {
@@ -232,4 +235,120 @@ data:extend(
     },
     order = "d-a-b"
   },
+
+  {
+    type = "technology",
+    name = "automobilism-2",
+    icon_size = 128,
+    icons = {{icon="__base__/graphics/technology/automobilism.png", tint=green_tint }},
+    prerequisites = {"automobilism", "titanium-processing"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "car-mk2"
+      },
+    },
+    unit =
+    {
+      count = 200,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+      },
+      time = 30
+    },
+    
+    order = "e-b-2",
+  },
+
+  {
+    type = "technology",
+    name = "automobilism-3",
+    icon_size = 128,
+    icons = {{icon="__base__/graphics/technology/automobilism.png", tint=blue_tint }},
+    prerequisites = {"automobilism-2", "titanium-processing", "advanced-electronics-2"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "car-mk3"
+      },
+    },
+    unit =
+    {
+      count = 400,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+      },
+      time = 30
+    },
+    
+    order = "e-b-3",
+  },
+
+  {
+    type = "technology",
+    name = "tanks-2",
+    icon_size = 128,
+    icons = {{icon="__base__/graphics/technology/tanks.png", tint=green_tint }},
+    prerequisites = {"tanks", "titanium-processing"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "tank-mk2"
+      },
+    },
+    unit =
+    {
+      count = 500,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"military-science-pack", 1},
+        {"chemical-science-pack", 1},
+      },
+      time = 30
+    },
+    
+    order = "e-c-c-2",
+  },
+
+  {
+    type = "technology",
+    name = "tanks-3",
+    icon_size = 128,
+    icons = {{icon="__base__/graphics/technology/tanks.png", tint=blue_tint }},
+    prerequisites = {"tanks-2", "titanium-processing", "advanced-electronics-2"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "tank-mk3"
+      },
+    },
+    unit =
+    {
+      count = 750,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"military-science-pack", 1},
+        {"chemical-science-pack", 1},
+      },
+      time = 30
+    },
+    
+    order = "e-c-c-3",
+  },
+
+
 })
