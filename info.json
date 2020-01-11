@@ -5,7 +5,7 @@
   "date": "2019-09-09",
   "title": "FactorioExtended Plus-Transport",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
-  "contributers": "Cinjun, rgfirefly24",
+  "contributers": "Cinjun, rgfirefly24, billbo99",
   "homepage": "",
   "description": "",
   "dependencies": ["base >= 0.17.00", "FactorioExtended-Plus-Core >= 0.2.0"]
