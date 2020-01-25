@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 21. 01. 2020
+  Changes :
+    - Support 0.18
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 30. 12. 2019
   Changes :
@@ -89,7 +94,7 @@ Version: 0.1.1
 Date: 13.03.2018
   Bugfixes:
     - Fixed issue where trains would nop show up on map/mini-map
-    - Removed incorrect flag "not-on-map" on all train entities, because factorio devs fixed a bug 
+    - Removed incorrect flag "not-on-map" on all train entities, because factorio devs fixed a bug
       where entities would still show on map if "not-on-map" flag was set.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
