@@ -5,6 +5,7 @@ Date: 2. 02. 2020
     - Added Offshore Pump Mk2
   Fixes
     - Tanks / Cars should be items using the type "item-with-entity-data" to preserve their grids
+    - Cleared icon_mipmaps warnings
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
