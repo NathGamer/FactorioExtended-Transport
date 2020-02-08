@@ -6,6 +6,9 @@
 -- extension_speed                              0.07                                0.09                                0.09
 -- rotation_speed                               0.04                                0.07                                0.07
 --
+if not data.raw["inserter"]["stack-inserter"].next_upgrade then
+    data.raw["inserter"]["stack-inserter"].next_upgrade = "stack-inserter-mk2"
+end
 
 local smk2 = table.deepcopy(data.raw["inserter"]["stack-inserter"])
 smk2.name = "stack-inserter-mk2"
@@ -29,7 +32,9 @@ smk2.hand_open_picture.hr_version.filename = "__FactorioExtended-Plus-Transport_
 smk2.platform_picture.sheet.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-platform-mk2.png"
 smk2.platform_picture.sheet.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-platform-mk2.png"
 
-data.raw["inserter"]["stack-inserter"].next_upgrade = "stack-inserter-mk2"
+if not data.raw["inserter"]["stack-filter-inserter"].next_upgrade then
+    data.raw["inserter"]["stack-filter-inserter"].next_upgrade = "stack-filter-inserter-mk2"
+end
 
 local fmk2 = table.deepcopy(data.raw["inserter"]["stack-filter-inserter"])
 fmk2.name = "stack-filter-inserter-mk2"
@@ -52,7 +57,5 @@ fmk2.hand_open_picture.filename = "__FactorioExtended-Plus-Transport__/graphics/
 fmk2.hand_open_picture.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-hand-open-mk2.png"
 fmk2.platform_picture.sheet.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/stack-filter-inserter-platform-mk2.png"
 fmk2.platform_picture.sheet.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-filter-inserter-mk2/hr-stack-filter-inserter-platform-mk2.png"
-
-data.raw["inserter"]["stack-filter-inserter"].next_upgrade = "stack-filter-inserter-mk2"
 
 data:extend({smk2, fmk2})

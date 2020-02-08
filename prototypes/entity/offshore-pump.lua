@@ -4,6 +4,13 @@ local green_tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
 -- max_health                                   150             300
 -- pumping_speed                                20              40
 --
+-- If someone has already set the fast_replaceable_group lets use it too
+if not data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group then
+    data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group = "offshore-pump"
+end
+if not data.raw["offshore-pump"]["offshore-pump"].next_upgrade then
+    data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-mk2"
+end
 
 local mk2 = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 mk2.name = "offshore-pump-mk2"
