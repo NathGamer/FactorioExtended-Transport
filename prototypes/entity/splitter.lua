@@ -4,7 +4,9 @@
 -- structure_animation_movement_cooldown        10          10          10          10          10
 -- structure_animation_speed_coefficient        0.7         1.2         1.2         0.7         0.7
 
-data.raw["splitter"]["express-splitter"].next_upgrade = "rapid-splitter-mk1"
+if not data.raw["splitter"]["express-splitter"].next_upgrade then
+    data.raw["splitter"]["express-splitter"].next_upgrade = "rapid-splitter-mk1"
+end
 
 local mk4 = table.deepcopy(data.raw["splitter"]["splitter"])
 mk4.name = "rapid-splitter-mk1"

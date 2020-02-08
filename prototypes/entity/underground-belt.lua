@@ -5,7 +5,9 @@ local Belt = require("prototypes.entity.transport-belt-pictures")
 -- speed                                        0.03125     0.0625      0.09375     0.125       0.15625
 -- max_distance                                 5           7           9           11          22
 --
-data.raw["underground-belt"]["express-underground-belt"].next_upgrade = "rapid-transport-belt-to-ground-mk1"
+if not data.raw["underground-belt"]["express-underground-belt"].next_upgrade then
+    data.raw["underground-belt"]["express-underground-belt"].next_upgrade = "rapid-transport-belt-to-ground-mk1"
+end
 
 local mk4 = table.deepcopy(data.raw["underground-belt"]["underground-belt"])
 mk4.name = "rapid-transport-belt-to-ground-mk1"
