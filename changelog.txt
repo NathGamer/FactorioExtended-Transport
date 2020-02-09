@@ -1,3 +1,12 @@
+Version: 0.4.1
+Date: 2. 02. 2020
+  Changes :
+    - General Code Refactor
+    - Added Offshore Pump Mk2
+  Fixes
+    - Tanks / Cars should be items using the type "item-with-entity-data" to preserve their grids
+    - Cleared icon_mipmaps warnings
+    - Be nicer in how we deal with fast_replaceable_group & next_upgrade
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
