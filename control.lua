@@ -1,16 +1,19 @@
---require("test")
---if not extended then extended = {} end
+local function init_supported_loaders()
+    if script.active_mods["loader-redux"] then
+    -- Add something here later once we hear back from "loader-redux" dev
+    -- remote.call("loader-redux", "add_loader", "rapid-transport-belt-mk1")
+    -- remote.call("loader-redux", "add_loader", "rapid-transport-belt-mk2")
+    end
+end
 
+script.on_load(
+    function()
+        init_supported_loaders()
+    end
+)
 
-
---remote.add_interface("trainTint", {
---  test = function( itemName, tint )
---    for _,surf in pairs(game.surfaces) do
---      for _,sprite in pairs(surf.find_entities_filtered{name=itemName}) do
---        --sprite.color = { r = 1, g = 0, b=0}
---        sprite.color = tint
---      end
---    end
---  end
---})
-
+script.on_configuration_changed(
+    function()
+        init_supported_loaders()
+    end
+)
