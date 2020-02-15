@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 15. 02. 2020
+  Changes :
+  Fixes :
+    -  Fixes pipe-to-ground mk2 max distance
+    -  Updated rapid-splitter-mk2 speed
+    -  Fixed mk1/mk2 rapid-splitter graphics
+---------------------------------------------------------------------------------------------------
 Version: 0.4.2
 Date: 10. 02. 2020
   Changes :
