@@ -50,21 +50,29 @@ mk4.structure.north.width = 82
 mk4.structure.north.height = 36
 mk4.structure.north.hr_version.width = 160
 mk4.structure.north.hr_version.height = 70
+mk4.structure.north.shift = util.by_pixel(6, 0)
+mk4.structure.north.hr_version.shift = util.by_pixel(7, 0)
 
 mk4.structure.east.width = 46
 mk4.structure.east.height = 80
 mk4.structure.east.hr_version.width = 90
 mk4.structure.east.hr_version.height = 160
+mk4.structure.east.shift = util.by_pixel(4, -6)
+mk4.structure.east.hr_version.shift = util.by_pixel(4, -6)
 
 mk4.structure.south.width = 82
 mk4.structure.south.height = 32
 mk4.structure.south.hr_version.width = 164
 mk4.structure.south.hr_version.height = 64
+mk4.structure.south.shift = util.by_pixel(4, 0)
+mk4.structure.south.hr_version.shift = util.by_pixel(4, 0)
 
 mk4.structure.west.width = 46
 mk4.structure.west.height = 76
 mk4.structure.west.hr_version.width = 94
 mk4.structure.west.hr_version.height = 150
+mk4.structure.west.shift = util.by_pixel(6, -4)
+mk4.structure.west.hr_version.shift = util.by_pixel(6, -4)
 
 local mk5 = table.deepcopy(data.raw["splitter"]["splitter"])
 mk5.name = "rapid-splitter-mk2"
@@ -72,11 +80,11 @@ mk5.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk5.name .. 
 mk5.icon_size = 32
 mk5.icon_mipmaps = nil
 mk5.minable.result = mk5.name
-mk5.max_health = 200
+mk5.max_health = 210
 mk5.structure_animation_speed_coefficient = 0.7
 mk5.structure_animation_movement_cooldown = 10
 mk5.next_upgrade = nil
-mk5.speed = 0.125
+mk5.speed = 0.15625
 mk5.structure_patch = nil
 mk5.belt_animation_set = {
     animation_set = {
@@ -108,20 +116,28 @@ mk5.structure.north.width = 82
 mk5.structure.north.height = 36
 mk5.structure.north.hr_version.width = 160
 mk5.structure.north.hr_version.height = 70
+mk5.structure.north.shift = util.by_pixel(6, 0)
+mk5.structure.north.hr_version.shift = util.by_pixel(7, 0)
 
 mk5.structure.east.width = 46
 mk5.structure.east.height = 80
 mk5.structure.east.hr_version.width = 90
 mk5.structure.east.hr_version.height = 160
+mk5.structure.east.shift = util.by_pixel(4, -6)
+mk5.structure.east.hr_version.shift = util.by_pixel(4, -6)
 
 mk5.structure.south.width = 82
 mk5.structure.south.height = 32
 mk5.structure.south.hr_version.width = 164
 mk5.structure.south.hr_version.height = 64
+mk5.structure.south.shift = util.by_pixel(4, 0)
+mk5.structure.south.hr_version.shift = util.by_pixel(4, 0)
 
 mk5.structure.west.width = 46
 mk5.structure.west.height = 76
 mk5.structure.west.hr_version.width = 94
 mk5.structure.west.hr_version.height = 150
+mk5.structure.west.shift = util.by_pixel(6, -4)
+mk5.structure.west.hr_version.shift = util.by_pixel(6, -4)
 
 data:extend({mk4, mk5})
