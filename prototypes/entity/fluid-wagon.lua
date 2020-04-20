@@ -8,9 +8,9 @@
 if not data.raw["fluid-wagon"]["fluid-wagon"].fast_replaceable_group then
     data.raw["fluid-wagon"]["fluid-wagon"].fast_replaceable_group = "fluid-wagon"
 end
-if not data.raw["fluid-wagon"]["fluid-wagon"].next_upgrade then
-    data.raw["fluid-wagon"]["fluid-wagon"].next_upgrade = "fluid-wagon-mk2"
-end
+--if not data.raw["fluid-wagon"]["fluid-wagon"].next_upgrade then
+--    data.raw["fluid-wagon"]["fluid-wagon"].next_upgrade = "fluid-wagon-mk2"
+--end
 
 local mk2 = table.deepcopy(data.raw["fluid-wagon"]["fluid-wagon"])
 mk2.name = "fluid-wagon-mk2"
@@ -19,7 +19,7 @@ mk2.icon_size = 32
 mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 2000
-mk2.next_upgrade = "fluid-wagon-mk3"
+--mk2.next_upgrade = "fluid-wagon-mk3"
 mk2.max_speed = 1.9
 mk2.capacity = 75000
 mk2.color = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
@@ -44,7 +44,7 @@ mk3.icon_size = 32
 mk3.icon_mipmaps = nil
 mk3.minable.result = mk3.name
 mk3.max_health = 1800
-mk3.next_upgrade = nil
+--mk3.next_upgrade = nil
 mk3.max_speed = 2.3
 mk3.capacity = 175000
 mk3.color = {r = 0.690, g = 0.75, b = 1}
