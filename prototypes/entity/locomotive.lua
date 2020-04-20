@@ -10,9 +10,9 @@
 if not data.raw["locomotive"]["locomotive"].fast_replaceable_group then
     data.raw["locomotive"]["locomotive"].fast_replaceable_group = "locomotive"
 end
-if not data.raw["locomotive"]["locomotive"].next_upgrade then
-    data.raw["locomotive"]["locomotive"].next_upgrade = "locomotive-mk2"
-end
+--if not data.raw["locomotive"]["locomotive"].next_upgrade then
+--    data.raw["locomotive"]["locomotive"].next_upgrade = "locomotive-mk2"
+--end
 
 local mk2 = table.deepcopy(data.raw["locomotive"]["locomotive"])
 mk2.name = "locomotive-mk2"
@@ -21,7 +21,7 @@ mk2.icon_size = 32
 mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 2000
-mk2.next_upgrade = "locomotive-mk3"
+--mk2.next_upgrade = "locomotive-mk3"
 mk2.max_speed = 1.6
 mk2.reversing_power_modifier = 0.8
 mk2.braking_force = 15
@@ -38,7 +38,7 @@ mk3.icon_size = 32
 mk3.icon_mipmaps = nil
 mk3.minable.result = mk3.name
 mk3.max_health = 2000
-mk3.next_upgrade = nil
+--mk3.next_upgrade = nil
 mk3.max_speed = 2
 mk3.reversing_power_modifier = 1
 mk3.braking_force = 20
