@@ -10,9 +10,6 @@
 if not data.raw["cargo-wagon"]["cargo-wagon"].fast_replaceable_group then
     data.raw["cargo-wagon"]["cargo-wagon"].fast_replaceable_group = "cargo-wagon"
 end
---if not data.raw["cargo-wagon"]["cargo-wagon"].next_upgrade then
---    data.raw["cargo-wagon"]["cargo-wagon"].next_upgrade = "cargo-wagon-mk2"
---end
 
 local mk2 = table.deepcopy(data.raw["cargo-wagon"]["cargo-wagon"])
 mk2.name = "cargo-wagon-mk2"
@@ -21,7 +18,6 @@ mk2.icon_size = 32
 mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 1200
---mk2.next_upgrade = "cargo-wagon-mk3"
 mk2.inventory_size = 60
 mk2.max_speed = 1.9
 mk2.friction_force = 0.25
@@ -48,7 +44,6 @@ mk3.icon_size = 32
 mk3.icon_mipmaps = nil
 mk3.minable.result = mk3.name
 mk3.max_health = 1800
---mk3.next_upgrade = nil
 mk3.inventory_size = 100
 mk3.max_speed = 2.3
 mk3.friction_force = 0.01
