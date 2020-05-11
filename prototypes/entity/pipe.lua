@@ -10,6 +10,17 @@ mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 200
 
+if mk2.fluid_box.base then
+    mk2.fluid_box.base = mk2.fluid_box.base * 2
+else
+    mk2.fluid_box.base = 2
+end
+if mk2.fluid_box.height then
+    mk2.fluid_box.height = mk2.fluid_box.height * 2
+else
+    mk2.fluid_box.height = 2
+end
+
 mk2.pictures.straight_vertical_single.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-vertical-single.png"
 mk2.pictures.straight_vertical_single.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/hr-pipe-straight-vertical-single.png"
 mk2.pictures.straight_vertical.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pipe/pipe-straight-vertical.png"

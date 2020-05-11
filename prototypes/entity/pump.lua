@@ -15,6 +15,17 @@ mk2.energy_source.drain = "1kW"
 mk2.energy_usage = "60kW"
 mk2.pumping_speed = 400
 
+if mk2.fluid_box.base then
+    mk2.fluid_box.base = mk2.fluid_box.base * 2
+else
+    mk2.fluid_box.base = 2
+end
+if mk2.fluid_box.height then
+    mk2.fluid_box.height = mk2.fluid_box.height * 2
+else
+    mk2.fluid_box.height = 2
+end
+
 for _, direction in pairs({"north", "east", "south", "west"}) do
     mk2.animations[direction].filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/pump-" .. direction .. ".png"
     mk2.animations[direction].hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/pump/hr-pump-" .. direction .. ".png"
