@@ -13,6 +13,7 @@ end
 
 local mk2 = table.deepcopy(data.raw["storage-tank"]["storage-tank"])
 mk2.name = "storage-tank-mk2"
+mk2.next_upgrade = nil
 mk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk2.name .. ".png"
 mk2.icon_size = 32
 mk2.icon_mipmaps = nil

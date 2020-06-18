@@ -12,6 +12,7 @@ end
 
 local smk2 = table.deepcopy(data.raw["inserter"]["stack-inserter"])
 smk2.name = "stack-inserter-mk2"
+smk2.next_upgrade = nil
 smk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. smk2.name .. ".png"
 smk2.icon_size = 32
 smk2.icon_mipmaps = nil
@@ -38,6 +39,7 @@ end
 
 local fmk2 = table.deepcopy(data.raw["inserter"]["stack-filter-inserter"])
 fmk2.name = "stack-filter-inserter-mk2"
+fmk2.next_upgrade = nil
 fmk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. fmk2.name .. ".png"
 fmk2.icon_size = 32
 fmk2.icon_mipmaps = nil
