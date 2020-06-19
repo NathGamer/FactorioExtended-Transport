@@ -14,6 +14,7 @@ end
 
 local mk2 = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 mk2.name = "offshore-pump-mk2"
+mk2.next_upgrade = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 300
 mk2.pumping_speed = 40

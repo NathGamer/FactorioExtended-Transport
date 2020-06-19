@@ -21,12 +21,12 @@ mk4.belt_animation_set = Belt.rapid_mk1_belt_animation_set
 
 local mk5 = table.deepcopy(data.raw["transport-belt"]["transport-belt"])
 mk5.name = "rapid-transport-belt-mk2"
+mk5.next_upgrade = nil
 mk5.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk5.name .. ".png"
 mk5.icon_size = 32
 mk5.icon_mipmaps = nil
 mk5.minable.result = mk5.name
 mk5.max_health = 190
-mk5.next_upgrade = "rapid-transport-belt-mk2"
 mk5.speed = 0.15625
 mk5.belt_animation_set = Belt.rapid_mk2_belt_animation_set
 
